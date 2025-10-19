@@ -1,0 +1,13 @@
+GenericEntity : "{9BBCA31526F6DE17}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_Commander_Pintle_Shield.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{656E3BD583AE3EA6}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{2808A996756DD533}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions_Tan.emat"
+    }
+   }
+  }
+ }
+}

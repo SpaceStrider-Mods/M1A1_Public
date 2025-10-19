@@ -1,0 +1,835 @@
+AnimSrcGraph {
+ AnimSetTemplate "{968D52F76BB570C9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.ast"
+ ControlTemplate AnimSrcGCT "{6056956E70B46E13}" {
+  Variables {
+   AnimSrcGCTVarFloat VehicleSteering {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleThrottle {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleClutch {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleBrake {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationLR {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationFB {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat LookX {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat LookY {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarInt SeatPositionType {
+    MaxValue 10
+   }
+   AnimSrcGCTVarFloat AimY {
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarBool Horn {
+   }
+   AnimSrcGCTVarFloat VehicleHandBrake {
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool IsDriver {
+   }
+   AnimSrcGCTVarFloat SpineAccelerationFB {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Vehicle_Wobble {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat SpineAccelerationLR {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat AimX {
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarFloat suspension_0 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_1 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_2 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_3 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_4 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_5 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_6 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_7 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Suspension_dumping {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Suspension_shake {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat YawAngle {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_0 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_1 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_2 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_3 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_4 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_5 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_6 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_7 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat steering {
+    MinValue -50
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat steering_axle2 {
+    MinValue -50
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat steering_delay {
+    MinValue -50
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat Gearbox_RPM {
+    MinValue -10000
+    MaxValue 10000
+   }
+   AnimSrcGCTVarFloat Engine_RPM {
+    MaxValue 10000
+   }
+   AnimSrcGCTVarFloat WaterLevel {
+    MaxValue 100
+   }
+   AnimSrcGCTVarFloat IsSwimming {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat IsSwimming_delayed2 {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat IsInVehicle {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat SPEED {
+    MinValue 0
+    MaxValue 250
+   }
+   AnimSrcGCTVarFloat Speed_dumping {
+    MaxValue 250
+   }
+   AnimSrcGCTVarFloat Speed_dumping2 {
+    MaxValue 250
+   }
+   AnimSrcGCTVarFloat speed_ant1 {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat speed_ant2 {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat FUEL1 {
+    DefaultValue 54.375
+    MaxValue 108.75
+   }
+   AnimSrcGCTVarFloat FUEL2 {
+    DefaultValue 54.375
+    MaxValue 108.75
+   }
+   AnimSrcGCTVarFloat POWER_IO {
+    DefaultValue 1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Dial_random {
+    DefaultValue 0.5
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarFloat LocalTime {
+    DefaultValue 100000000
+    MaxValue 100000000
+   }
+   AnimSrcGCTVarBool TurnOut {
+   }
+   AnimSrcGCTVarFloat Yaw {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat Yaw_Commander {
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat Yaw_SimComp {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat Pitch {
+    MinValue -50
+    MaxValue 80
+   }
+   AnimSrcGCTVarFloat Pitch_Commander {
+    MinValue -50
+    MaxValue 80
+   }
+   AnimSrcGCTVarFloat Pitch_SimComp {
+    DefaultValue 0
+    MinValue -50
+    MaxValue 80
+   }
+   AnimSrcGCTVarInt VehicleDoorState {
+    MaxValue 298754968
+   }
+   AnimSrcGCTVarInt VehicleDoorType {
+    MaxValue 298754968
+   }
+   AnimSrcGCTVarFloat TurretRot_Antennas {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Gunner_sights_cover {
+    DefaultValue -0.66
+    MinValue -0.66
+    MaxValue 1.4
+   }
+   AnimSrcGCTVarFloat Gunner_comander_cover {
+    DefaultValue -0.66
+    MinValue -0.66
+    MaxValue 1.4
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Vehicle_SwitchSeat {
+   }
+   AnimSrcGCTCmd CMD_Unconscious {
+   }
+   AnimSrcGCTCmd CMD_Unconscious_Exit {
+   }
+   AnimSrcGCTCmd CMD_Death {
+   }
+   AnimSrcGCTCmd CMD_OpenDoor {
+   }
+   AnimSrcGCTCmd CMD_Wheeled_Action {
+   }
+   AnimSrcGCTCmd CMD_Lights {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetIn {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetOut {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GearSwitch {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_Engine_StartStop {
+   }
+   AnimSrcGCTCmd CMD_HandBrake {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_OpenDoor {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_CloseDoor {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_FinishActionQueue {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain LeftLeg {
+    Joints {
+     "leftleg"
+     "leftlegtwist"
+     "leftknee"
+     "leftkneetwist"
+     "leftfoot"
+    }
+    MiddleJoint "leftknee"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightLeg {
+    Joints {
+     "rightleg"
+     "rightlegtwist"
+     "rightknee"
+     "rightkneetwist"
+     "rightfoot"
+    }
+    MiddleJoint "rightknee"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain suspension0 {
+    Joints {
+     "v_suspension0"
+    }
+   }
+   AnimSrcGCTIkChain suspension1 {
+    Joints {
+     "v_suspension1"
+    }
+   }
+   AnimSrcGCTIkChain suspension2 {
+    Joints {
+     "v_suspension2"
+    }
+   }
+   AnimSrcGCTIkChain suspension3 {
+    Joints {
+     "v_suspension3"
+    }
+   }
+   AnimSrcGCTIkChain suspension4 {
+    Joints {
+     "v_suspension4"
+    }
+   }
+   AnimSrcGCTIkChain suspension5 {
+    Joints {
+     "v_suspension5"
+    }
+   }
+   AnimSrcGCTIkChain suspension6 {
+    Joints {
+     "v_suspension6"
+    }
+   }
+   AnimSrcGCTIkChain suspension7 {
+    Joints {
+     "v_suspension7"
+    }
+   }
+   AnimSrcGCTIkChain suspension_axis0 {
+    Joints {
+     "v_suspension_axis0"
+    }
+   }
+   AnimSrcGCTIkChain suspension_axis1 {
+    Joints {
+     "v_suspension_axis1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_axis2 {
+    Joints {
+     "v_suspension_axis2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_axis3 {
+    Joints {
+     "v_suspension_axis3"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber4 {
+    Joints {
+     "v_shock_absorber4"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber_ikTarget4 {
+    Joints {
+     "v_shock_absorber_ikTarget4"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber5 {
+    Joints {
+     "v_shock_absorber5"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber_ikTarget5 {
+    Joints {
+     "v_shock_absorber_ikTarget5"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber6 {
+    Joints {
+     "v_shock_absorber6"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber_ikTarget6 {
+    Joints {
+     "v_shock_absorber_ikTarget6"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber7 {
+    Joints {
+     "v_shock_absorber7"
+    }
+   }
+   AnimSrcGCTIkChain shock_absorber_ikTarget7 {
+    Joints {
+     "v_shock_absorber_ikTarget7"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up0_1 {
+    Joints {
+     "v_suspension_stabilizer_up0_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up0_2 {
+    Joints {
+     "v_suspension_stabilizer_up0_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up1_1 {
+    Joints {
+     "v_suspension_stabilizer_up1_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up1_2 {
+    Joints {
+     "v_suspension_stabilizer_up1_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up2_1 {
+    Joints {
+     "v_suspension_stabilizer_up2_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up2_2 {
+    Joints {
+     "v_suspension_stabilizer_up2_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up3_1 {
+    Joints {
+     "v_suspension_stabilizer_up3_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_up3_2 {
+    Joints {
+     "v_suspension_stabilizer_up3_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low0_1 {
+    Joints {
+     "v_suspension_stabilizer_low0_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low0_2 {
+    Joints {
+     "v_suspension_stabilizer_low0_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low1_1 {
+    Joints {
+     "v_suspension_stabilizer_low1_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low1_2 {
+    Joints {
+     "v_suspension_stabilizer_low1_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low2_1 {
+    Joints {
+     "v_suspension_stabilizer_low2_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low2_2 {
+    Joints {
+     "v_suspension_stabilizer_low2_2"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low3_1 {
+    Joints {
+     "v_suspension_stabilizer_low3_1"
+    }
+   }
+   AnimSrcGCTIkChain suspension_stabilizer_low3_2 {
+    Joints {
+     "v_suspension_stabilizer_low3_2"
+    }
+   }
+   AnimSrcGCTIkChain steering_low0 {
+    Joints {
+     "v_steering_low0"
+    }
+   }
+   AnimSrcGCTIkChain steering_low1 {
+    Joints {
+     "v_steering_low1"
+    }
+   }
+   AnimSrcGCTIkChain steering_low2 {
+    Joints {
+     "v_steering_low2"
+    }
+   }
+   AnimSrcGCTIkChain steering_low3 {
+    Joints {
+     "v_steering_low3"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_suspension0 {
+    Joints {
+     "v_steering_axis_suspension0"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_body0 {
+    Joints {
+     "v_steering_axis_body0"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_suspension1 {
+    Joints {
+     "v_steering_axis_suspension1"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_body1 {
+    Joints {
+     "v_steering_axis_body1"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_suspension2 {
+    Joints {
+     "v_steering_axis_suspension2"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_body2 {
+    Joints {
+     "v_steering_axis_body2"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_suspension3 {
+    Joints {
+     "v_steering_axis_suspension3"
+    }
+   }
+   AnimSrcGCTIkChain steering_axis_body3 {
+    Joints {
+     "v_steering_axis_body3"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up0 {
+    Joints {
+     "v_shaft_up0"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up1 {
+    Joints {
+     "v_shaft_up1"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up2 {
+    Joints {
+     "v_shaft_up2"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up3 {
+    Joints {
+     "v_shaft_up3"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up4 {
+    Joints {
+     "v_shaft_up4"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up5 {
+    Joints {
+     "v_shaft_up5"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up6 {
+    Joints {
+     "v_shaft_up6"
+    }
+   }
+   AnimSrcGCTIkChain shaft_up7 {
+    Joints {
+     "v_shaft_up7"
+    }
+   }
+   AnimSrcGCTIkChain Visor_cover_arm_L {
+    Joints {
+     "v_gunner_sight_cover_arm_01"
+     "v_gunner_sight_cover_arm_02"
+     "v_gunner_sight_cover_arm_03"
+    }
+    MiddleJoint "v_gunner_sight_cover_arm_02"
+   }
+   AnimSrcGCTIkChain Visor_cover_arm_R {
+    Joints {
+     "v_commander_sight_cover_arm_01"
+     "v_commander_sight_cover_arm_02"
+     "v_commander_sight_cover_arm_03"
+    }
+    MiddleJoint "v_commander_sight_cover_arm_02"
+   }
+  }
+  BoneMasks {
+   AnimSrcGCTBoneMask Chasis {
+    Bones {
+     "v_axis_shaft_01"
+     "v_axis_shaft_02"
+     "v_axis_shaft_03"
+     "v_axis_shaft_04"
+     "v_axis_shaft_05"
+     "v_exhaust1"
+     "v_exhaust2"
+     "v_main_shaft"
+     "v_shaft_up0"
+     "v_shaft_up1"
+     "v_shaft_up2"
+     "v_shaft_up3"
+     "v_shaft_up4"
+     "v_shaft_up5"
+     "v_shaft_up6"
+     "v_shaft_up7"
+     "v_shock_absorber_ikTarget4"
+     "v_shock_absorber_ikTarget5"
+     "v_shock_absorber_ikTarget6"
+     "v_shock_absorber_ikTarget7"
+     "v_steering_body0"
+     "v_steering_body1"
+     "v_steering_body2"
+     "v_steering_body3"
+     "v_suspension0"
+     "v_suspension1"
+     "v_suspension2"
+     "v_suspension3"
+     "v_suspension4"
+     "v_suspension5"
+     "v_suspension6"
+     "v_suspension7"
+     "v_suspension_stabilizer_up0_1"
+     "v_suspension_stabilizer_up0_2"
+     "v_suspension_stabilizer_up1_1"
+     "v_suspension_stabilizer_up1_2"
+     "v_suspension_stabilizer_up2_1"
+     "v_suspension_stabilizer_up2_2"
+     "v_suspension_stabilizer_up3_1"
+     "v_suspension_stabilizer_up3_2"
+     "v_steering_axis_body0"
+     "v_steering_low0"
+     "v_steering_axis_body1"
+     "v_steering_low1"
+     "v_steering_axis_body2"
+     "v_steering_low2"
+     "v_steering_axis_body3"
+     "v_steering_low3"
+     "v_suspension_axis0"
+     "v_suspension_stabilizer_low0_1"
+     "v_suspension_stabilizer_low0_2"
+     "v_hose0"
+     "v_shaft0"
+     "v_shaft_low0"
+     "v_shock_absorber0"
+     "v_steering_axis_suspension0"
+     "v_wheel_L01"
+     "v_suspension_axis1"
+     "v_suspension_stabilizer_low1_1"
+     "v_suspension_stabilizer_low1_2"
+     "v_hose1"
+     "v_shaft1"
+     "v_shaft_low1"
+     "v_shock_absorber1"
+     "v_steering_axis_suspension1"
+     "v_wheel_R01"
+     "v_suspension_axis2"
+     "v_suspension_stabilizer_low2_1"
+     "v_suspension_stabilizer_low2_2"
+     "v_hose2"
+     "v_shaft2"
+     "v_shaft_low2"
+     "v_shock_absorber2"
+     "v_steering_axis_suspension2"
+     "v_wheel_L02"
+     "v_suspension_axis3"
+     "v_suspension_stabilizer_low3_1"
+     "v_suspension_stabilizer_low3_2"
+     "v_hose3"
+     "v_shaft3"
+     "v_shaft_low3"
+     "v_shock_absorber3"
+     "v_steering_axis_suspension3"
+     "v_wheel_R02"
+     "v_hose4"
+     "v_shaft4"
+     "v_shaft_low4"
+     "v_shock_absorber4"
+     "v_wheel_L03"
+     "v_hose5"
+     "v_shaft5"
+     "v_shaft_low5"
+     "v_shock_absorber5"
+     "v_wheel_R03"
+     "v_hose6"
+     "v_shaft6"
+     "v_shaft_low6"
+     "v_shock_absorber6"
+     "v_wheel_L04"
+     "v_hose7"
+     "v_shaft7"
+     "v_shaft_low7"
+     "v_shock_absorber7"
+     "v_wheel_R04"
+     "removePrefix_v_wheel_L01"
+     "removePrefix_v_wheel_R01"
+     "removePrefix_v_wheel_L02"
+     "removePrefix_v_wheel_R02"
+     "removePrefix_v_wheel_L03"
+     "removePrefix_v_wheel_R03"
+     "removePrefix_v_wheel_L04"
+     "removePrefix_v_wheel_R04"
+     "v_shock_absorber_ikTarget0"
+     "v_shock_absorber_ikTarget1"
+     "v_shock_absorber_ikTarget2"
+     "v_shock_absorber_ikTarget3"
+     "v_propeller_L"
+     "v_propeller_L1"
+     "v_propeller_shaft"
+     "v_rudder_L01"
+     "v_rudder_L02"
+     "v_rudder_R01"
+     "v_rudder_R02"
+    }
+   }
+   AnimSrcGCTBoneMask Body {
+    Bones {
+     "v_Batery_diel"
+     "v_Fuel_diel"
+     "v_RPM_diel"
+     "v_airTank1_diel"
+     "v_airTank2_diel"
+     "v_canister_L01"
+     "v_canister_R01"
+     "v_canister_R02"
+     "v_headlight_L"
+     "v_headlight_L1"
+     "v_hitch_L"
+     "v_hitch_R"
+     "v_mirror_L"
+     "v_mirror_R"
+     "v_searchlight"
+     "v_speed_diel"
+     "v_water_temp_dial2"
+     "v_water_temp_dial3"
+     "v_trim_vane"
+    }
+   }
+   AnimSrcGCTBoneMask Turret {
+    Bones {
+     "v_antenna_L02"
+     "v_antenna_L01"
+     "v_antenna_R01"
+     "v_antenna_L03"
+     "v_antenna_L04"
+     "v_antenna_L05"
+     "v_antenna_R05"
+     "v_antenna_R04"
+     "v_antenna_R03"
+     "v_antenna_R02"
+     "v_ammo_belt"
+     "v_commander_sight"
+     "v_commander_sight_cover"
+     "v_gunner_sight"
+     "v_gunner_sight_cover"
+     "v_commander_sight_cover_arm_01"
+     "v_commander_sight_cover_arm_02"
+     "v_commander_sight_cover_arm_03"
+     "v_gunner_sight_cover_arm_01"
+     "v_gunner_sight_cover_arm_02"
+     "v_gunner_sight_cover_arm_03"
+    }
+   }
+   AnimSrcGCTBoneMask Turret_Pose {
+    Bones {
+     "v_root"
+     "v_turret_slot"
+     "v_turret_01"
+    }
+   }
+   AnimSrcGCTBoneMask Commander_Turret {
+    Bones {
+     "v_Commander_idle"
+    }
+   }
+  }
+  GlobalTags {
+   "VEHICLE"
+   "WHEELED"
+   "LAV25"
+  }
+ }
+ Debug AnimSrcGD "{6056956E70B469B8}" {
+ }
+ GraphFilesResourceNames {
+  "{5D07AA3A3036DE0B}Assets/Vehicles/Tracked/M1A1/workspaces/M1A1.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

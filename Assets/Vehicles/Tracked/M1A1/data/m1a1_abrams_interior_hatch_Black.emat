@@ -1,0 +1,13 @@
+MatPBRMulti : "{2A466A90E1A7168F}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_hatch.emat" {
+ RoughnessScale 2.725
+ MetalnessScale 0.381
+ AOScale 1
+ CavityFromAO 0
+ Color_1 0.003 0.003 0.003 1
+ UVTransform_1 MatUVTransform "{64D8246C8235E2FB}" {
+  TilingU 3
+  TilingV 3
+ }
+ Roughness_1 1
+ Metalness_1 1
+}

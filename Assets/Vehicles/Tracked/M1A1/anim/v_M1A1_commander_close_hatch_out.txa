@@ -1,0 +1,134 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 73
+ $node "v_body" {
+  $keys t q s {
+   $frame 0 73 {
+    #t 0 0.2717258 0.03524
+   }
+  }
+  $node "v_turret_01" {
+   $keys t q s {
+    $frame 0 73 {
+     #t -0.0110284 0.3922783 -0.5037755
+    }
+   }
+   $node "v_turret_02" {
+    $keys t q s {
+     $frame 0 73 {
+      #t 0.4991289 0.8692999 -0.719214
+     }
+    }
+    $node "v_commander_hatch" {
+     $keys q s {
+      $frame 0 22 {
+       #q -0.76604456 0 0 0.64278764
+      }
+      $frame 23 {
+       #q -0.76390773 0 0 0.64532548
+      }
+      $frame 24 {
+       #q -0.7576378 0 0 0.65267539
+      }
+      $frame 25 {
+       #q -0.74734205 0 0 0.66443956
+      }
+      $frame 26 {
+       #q -0.73302191 0 0 0.68020505
+      }
+      $frame 27 {
+       #q -0.71461195 0 0 0.69952118
+      }
+      $frame 28 {
+       #q -0.69201684 0 0 0.72188133
+      }
+      $frame 29 {
+       #q -0.66515589 0 0 0.74670458
+      }
+      $frame 30 {
+       #q -0.63400638 0 0 0.77332795
+      }
+      $frame 31 {
+       #q -0.59865224 0 0 0.80100906
+      }
+      $frame 32 {
+       #q -0.55932593 0 0 0.82894784
+      }
+      $frame 33 {
+       #q -0.51644123 0 0 0.85632271
+      }
+      $frame 34 {
+       #q -0.47060767 0 0 0.88234264
+      }
+      $frame 35 {
+       #q -0.42261833 0 0 0.90630776
+      }
+      $frame 36 {
+       #q -0.37341273 0 0 0.92766535
+      }
+      $frame 37 {
+       #q -0.3240191 0 0 0.94605064
+      }
+      $frame 38 {
+       #q -0.27548313 0 0 0.96130592
+      }
+      $frame 39 {
+       #q -0.22880232 0 0 0.97347295
+      }
+      $frame 40 {
+       #q -0.18487196 0 0 0.98276263
+      }
+      $frame 41 {
+       #q -0.1444549 0 0 0.98951143
+      }
+      $frame 42 {
+       #q -0.1081732 0 0 0.9941321
+      }
+      $frame 43 {
+       #q -0.0765206 0 0 0.99706811
+      }
+      $frame 44 {
+       #q -0.04988973 0 0 0.99875474
+      }
+      $frame 45 {
+       #q -0.02860815 0 0 0.99959069
+      }
+      $frame 46 {
+       #q -0.01297806 0 0 0.99991584
+      }
+      $frame 47 {
+       #q -0.00331769 0 0 0.99999452
+      }
+      $frame 48 73 {
+       #q 0 0 0 1
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 22 "Sound" "AnimSrcEventGeneric \"{667735702E3F461F}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_TURRET_DOOR_CLOSE_START.v_gunner\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 23 "Event_Vehicle_ClosingDoor_05" "AnimSrcEventGeneric \"{667735702E3F59AB}\" {
+ Name \"Event_Vehicle_ClosingDoor_05\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 25 "" 0
+  #event 48 "Sound" "AnimSrcEventGeneric \"{667735702E3F5968}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_TURRET_DOOR_CLOSE_FINISH.v_gunner\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+}

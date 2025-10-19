@@ -1,0 +1,70 @@
+MetaFileClass {
+ Name "{6F4D5BB61951F295}Assets/Vehicles/Tracked/M1A1/m1a1_abrams_commander_turret.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E2C6254FB3783ED}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{E5394497781AECA3}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams.emat"
+    }
+    MaterialAssignClass "{5E2C6254FB37BC04}" {
+     SourceMaterial "m1a1_abrams_exterior_glass"
+     AssignedMaterial "{050501BBE755E310}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_exterior_glass.emat"
+    }
+    MaterialAssignClass "{64D72604DE214CDF}" {
+     SourceMaterial "m1a1_abrams_interior_01"
+     AssignedMaterial "{057F9724268CB177}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_01.emat"
+    }
+    MaterialAssignClass "{64D72601A0C50768}" {
+     SourceMaterial "m1a1_abrams_interior_hatch"
+     AssignedMaterial "{2A466A90E1A7168F}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_hatch.emat"
+    }
+   }
+   MeshParams {
+    MeshParam turret_machinegun_02_turret {
+    }
+    MeshParam commanderhatch {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_turret_machinegun_02_turret {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_turret_machinegun_02_turret_Hatch {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E2C6254FB3B27B8}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E2C6254FB3B2109}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E2C6254FB3B2167}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E2C6254FB3B21A6}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E2C6254FB3B21DE}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

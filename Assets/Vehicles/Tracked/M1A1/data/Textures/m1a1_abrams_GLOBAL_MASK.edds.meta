@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B8DB18D294651398}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

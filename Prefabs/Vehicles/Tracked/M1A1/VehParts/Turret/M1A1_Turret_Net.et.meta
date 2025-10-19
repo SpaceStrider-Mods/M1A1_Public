@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C7634FA342E3528}Prefabs/Vehicles/Tracked/M1A1/VehParts/Turret/M1A1_Turret_Net.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

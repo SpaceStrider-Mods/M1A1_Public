@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1F0DC5A59D8919B4}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_decals_A.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

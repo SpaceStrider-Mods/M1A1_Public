@@ -1,0 +1,14 @@
+GenericEntity : "{42A8A6FA5D3DCF79}Prefabs/Vehicles/Core/ERA/ARAT2/ARAT2_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5EE38F2DF67D8027}Assets/Vehicles/Tracked/M1A1/ERA/Plates/ERAPlate_R01.xob"
+   Materials {
+    MaterialAssignClass "{61085450102A0552}" {
+     SourceMaterial "Clearcoat"
+     AssignedMaterial "{D98B17617649472A}Assets/Vehicles/Tracked/M1A1/data/Clearcoat_MERDC.emat"
+    }
+   }
+  }
+ }
+}

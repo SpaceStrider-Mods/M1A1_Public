@@ -1,0 +1,34 @@
+Tank : "{23FE95563A8639F5}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65476AC5793061BE}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{B6C3C5299A34D683}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Tan.emat"
+    }
+    MaterialAssignClass "{65476AC5662DEA47}" {
+     SourceMaterial "m1a1_abrams_chassis"
+     AssignedMaterial "{B6C3C5299A34D683}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Tan.emat"
+    }
+    MaterialAssignClass "{65476AC68C462048}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{AB64F85E018034A8}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_bulldog_decals.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{9969AECF80DD4D1A}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A1/SEPV2/M1A2SEPV2Tan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{AD3B6761D9B45530}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/M1A2_Turret_SEPV2_Tan.et"
+    }
+   }
+  }
+ }
+ coords 76.643 1 1355.547
+}

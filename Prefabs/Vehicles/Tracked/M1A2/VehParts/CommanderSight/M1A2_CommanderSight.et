@@ -1,0 +1,26 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "5D3A5561861880F5"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{A77C6FCC683E677C}Assets/Vehicles/Tracked/M1A1/VehParts/m1a2_abrams_CommanderSight.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Sight {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{60AAF83A13B1AFB5}" {
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{632A43C9D84B1C4A}" {
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.077 0.09 0.122 1
+ MetalnessScale 0.344
+ BCRMap "{2B82E1B19C020F62}Assets/_SharedData/Glass/ST_Glass_Streaks_01_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{5D1AB3BCF07E11A3}" {
+  TilingU 4
+  TilingV 4
+ }
+}

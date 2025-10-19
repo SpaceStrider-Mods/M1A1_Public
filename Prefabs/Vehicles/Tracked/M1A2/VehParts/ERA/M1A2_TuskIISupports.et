@@ -1,0 +1,89 @@
+GenericEntity : "{A958A61D3FAEBC41}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{60648DD0CB61EA77}" {
+   Slots {
+    RegisteringComponentSlotInfo ERA2_R01 {
+     Prefab "{3F4207AFF5A5011B}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R01.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R02 {
+     Prefab "{61AA2EEC4A288F14}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R02.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R03 {
+     Prefab "{95A2697447F5E760}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R03.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R04 {
+     Prefab "{DC7A7C6B3533930A}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R04.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R05 {
+     Prefab "{28723BF338EEFB7E}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R05.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R06 {
+     Prefab "{769A12B087637571}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R06.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R07 {
+     Prefab "{829255288ABE1D05}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R07.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_R08 {
+     Prefab "{E52A388E62EF9DA5}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_R08.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L01 {
+     Prefab "{8565F366B9B21634}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L01.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L02 {
+     Prefab "{DB8DDA25063F983B}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L02.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L03 {
+     Prefab "{2F859DBD0BE2F04F}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L03.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L04 {
+     Prefab "{665D88A279248425}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L04.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L05 {
+     Prefab "{9255CF3A74F9EC51}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L05.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L06 {
+     Prefab "{CCBDE679CB74625E}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L06.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L07 {
+     Prefab "{38B5A1E1C6A90A2A}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L07.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ERA2_L08 {
+     Prefab "{5F0DCC472EF88A8A}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Green/ARAT2_L08.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

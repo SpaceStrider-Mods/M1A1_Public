@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{56DCB45C573C6BB8}Prefabs/Vehicles/Tracked/M1A2/VehParts/DummyCommanderHatch/M1A2_SEPV2_CommanderHatch_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

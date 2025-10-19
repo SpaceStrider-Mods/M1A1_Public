@@ -1,0 +1,136 @@
+MetaFileClass {
+ Name "{C92A2EBD50904EF0}Assets/Vehicles/Tracked/M1A1/m1a1_abrams_turret.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MergeMeshes 0
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E1CD7349A01CAFA}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{E5394497781AECA3}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams.emat"
+    }
+    MaterialAssignClass "{5E1CD7349A01CB1C}" {
+     SourceMaterial "m1a1_abrams_exterior_glass"
+     AssignedMaterial "{050501BBE755E310}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_exterior_glass.emat"
+    }
+    MaterialAssignClass "{6054A8581C8BB19A}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{C8309C19AF8E9580}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_decals.emat"
+    }
+    MaterialAssignClass "{64D72604C0C2AB5D}" {
+     SourceMaterial "m1a1_abrams_interior_01"
+     AssignedMaterial "{057F9724268CB177}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_01.emat"
+    }
+    MaterialAssignClass "{64D72604C0C2AB2D}" {
+     SourceMaterial "m1a1_abrams_interior_mesh"
+     AssignedMaterial "{50CE92C6B4F69041}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_mesh.emat"
+    }
+    MaterialAssignClass "{64D72604C0C2AB20}" {
+     SourceMaterial "m1a1_abrams_interior_sights"
+     AssignedMaterial "{12C5EA2E0EAD2ED8}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_sights.emat"
+    }
+    MaterialAssignClass "{64D72604C0C2AB27}" {
+     SourceMaterial "m1a1_abrams_interior_hatch"
+     AssignedMaterial "{2A466A90E1A7168F}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_hatch.emat"
+    }
+    MaterialAssignClass "{64D72604C0C2AB3B}" {
+     SourceMaterial "m1a1_abrams_interior_screens"
+     AssignedMaterial "{C5D8444A1F4F5B52}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_screens.emat"
+    }
+    MaterialAssignClass "{64D726023A9917BB}" {
+     SourceMaterial "m1a1_abrams_interior_02"
+     AssignedMaterial "{5B97BE6799013F78}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_02.emat"
+    }
+   }
+   MeshParams {
+    MeshParam turret_body {
+    }
+    MeshParam turret_decals {
+    }
+    MeshParam turret_Interior {
+    }
+    MeshParam turret_loaderhatch {
+    }
+   }
+   MergeTriMeshes 0
+   GeometryParams {
+    GeometryParam UBX_AmmoRack {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_A1_turret_cannon {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{08A1668B0FD73D18}Common/Materials/Game/Armor/armor_60mm_Chemresist_abrams.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_01 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_turret_loaderhatch {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_A1turret {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{DA413568B4451D63}Common/Materials/Game/Armor/armor_150mm_abrams.gamemat"
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+      "{8E8A10341B3BF250}Common/Materials/Game/Armor/armor_40mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_turret_loader_Hatch_Sight {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+      "{DA413568B4451D63}Common/Materials/Game/Armor/armor_150mm_abrams.gamemat"
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+      "{8E8A10341B3BF250}Common/Materials/Game/Armor/armor_40mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E5C4993A371D42C}" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E1CD7349BF7E55D}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E1CD7349BF7E57F}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E1CD7349BF7E59C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E1CD7349BF7E5B3}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

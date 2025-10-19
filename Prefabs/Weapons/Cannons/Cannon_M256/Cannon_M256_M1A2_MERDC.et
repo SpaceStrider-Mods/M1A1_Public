@@ -1,0 +1,17 @@
+GenericEntity : "{BE242D04EE46189D}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{647C15E5FFCFAFAF}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{2467F604BE51BC97}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_MERDC.emat"
+    }
+    MaterialAssignClass "{647C15E5FFCFAFBF}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{4B3E9F4386280E28}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_queen_decals.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F1A293B2B3743CCC}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1A1_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

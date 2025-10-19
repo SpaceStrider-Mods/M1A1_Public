@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.292 0.292 0.292 1
+ BCRMap "{E05D515EDE26551C}Assets/_SharedData/Glass/ST_Glass_Dirt_01_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{64D72607F3EBC464}" {
+  TilingU 2
+  TilingV 2
+ }
+}

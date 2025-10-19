@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0297528F2283D0F3}Assets/Vehicles/Tracked/M1A1/Data/Clearcoat.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

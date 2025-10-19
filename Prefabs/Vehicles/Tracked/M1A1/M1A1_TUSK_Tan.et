@@ -1,0 +1,23 @@
+Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
+ ID "5D1880CD9E51D361"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Abrams-EditableEntity_M1A1_TUSK_Name"
+    m_Image "{F0AFA7BB753666D3}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A1/M1A1TUSKTan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo EngineCover {
+     Prefab "{91E9461D9FD11F35}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Engine_Grill_Tan.et"
+    }
+    EntitySlotInfo Tusk {
+     MergePhysics 1
+     Prefab "{B7E5C0105B6525E4}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports_Tan.et"
+    }
+   }
+  }
+ }
+ coords 146.592 1 1247.546
+}

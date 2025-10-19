@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9E75561ED3F116FC}Prefabs/Vehicles/Tracked/M1A2/M1A2_TUSKII_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

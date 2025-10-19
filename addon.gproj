@@ -1,0 +1,82 @@
+GameProject {
+ ID "M1A1Abrams"
+ GUID "5D1880C4AD410C14"
+ TITLE "M1A1 Abrams"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{64DB60CB207EEDC4}" {
+      StringTableSource "{8C3EEED58BC2783B}Language/M1A1AbramsLocalization.st"
+      Languages {
+       LanguageDefinition "{64DB60CB2DBB7C62}" {
+        Code "cs_cz"
+        StringTableRuntime "{F3596AE7ABB4E929}Language/M1A1AbramsLocalization.cs_cz.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7C25}" {
+        Code "de_de"
+        StringTableRuntime "{262770D4B817F809}Language/M1A1AbramsLocalization.de_de.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7C36}" {
+        Code "en_us"
+        StringTableRuntime "{78D7FA9FD2E4FD08}Language/M1A1AbramsLocalization.en_us.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7C18}" {
+        Code "es_es"
+        StringTableRuntime "{BD9BB7163CE69617}Language/M1A1AbramsLocalization.es_es.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F6B}" {
+        Code "fr_fr"
+        StringTableRuntime "{06334221DA657515}Language/M1A1AbramsLocalization.fr_fr.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F70}" {
+        Code "it_it"
+        StringTableRuntime "{862FCD157747F6EC}Language/M1A1AbramsLocalization.it_it.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F43}" {
+        Code "ja_jp"
+        StringTableRuntime "{963470874936C647}Language/M1A1AbramsLocalization.ja_jp.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F52}" {
+        Code "ko_kr"
+        StringTableRuntime "{368A582BDA1BC578}Language/M1A1AbramsLocalization.ko_kr.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F23}" {
+        Code "pl_pl"
+        StringTableRuntime "{6AFBFED164F45904}Language/M1A1AbramsLocalization.pl_pl.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F30}" {
+        Code "pt_br"
+        StringTableRuntime "{BF8C641D5F0A93BE}Language/M1A1AbramsLocalization.pt_br.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7F07}" {
+        Code "ru_ru"
+        StringTableRuntime "{EACD70B5C273F6C8}Language/M1A1AbramsLocalization.ru_ru.conf"
+       }
+       LanguageDefinition "{64DB60CB2DBB7EEE}" {
+        Code "zh_cn"
+        StringTableRuntime "{BA254B7E97FD9880}Language/M1A1AbramsLocalization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

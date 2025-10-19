@@ -1,0 +1,17 @@
+Turret : "{772761F4454BABF4}Prefabs/Vehicles/Tracked/M1A1/VehParts/CommanderTurret/M1A1_Commander_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{64EB50095AC5CDE5}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{69CC25F19FDA2470}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Black.emat"
+    }
+    MaterialAssignClass "{64EB500AF0E1A636}" {
+     SourceMaterial "m1a1_abrams_interior_hatch"
+     AssignedMaterial "{731BA717D096F1A7}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_hatch_Black.emat"
+    }
+   }
+  }
+ }
+}

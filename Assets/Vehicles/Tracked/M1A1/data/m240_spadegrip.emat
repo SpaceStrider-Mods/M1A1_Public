@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1.5
+ BCRMap "{C12CA64512B55CF6}Assets/Vehicles/Tracked/M1A1/data/Textures/m240_spadegrip_BCR.edds"
+ NMOMap "{F9F41DD7CBC20E68}Assets/Vehicles/Tracked/M1A1/data/Textures/m240_spadegrip_NMO.edds"
+}

@@ -1,0 +1,87 @@
+MetaFileClass {
+ Name "{E5D8E3D32B62D083}Assets/Vehicles/Tracked/M1A1/VehParts/M1A2_CommandersCupulaArmor_Static.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{654B4867969494C6}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{20A5C59DC6E33294}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions.emat"
+    }
+    MaterialAssignClass "{654B4867969494AC}" {
+     SourceMaterial "M1AdditionsGlass"
+     AssignedMaterial "{5BC6B73533E5536E}Assets/Vehicles/Tracked/M1A1/data/M1AdditionsGlass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CommanderStaticArmor {
+    }
+    MeshParam CommanderStaticArmorGlass {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_ArmorPanel_04 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_ArmorPanel_05 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_GlassPanel_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{298A016BA1025E17}Common/Materials/Game/glass_armored.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_GlassPanel_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{298A016BA1025E17}Common/Materials/Game/glass_armored.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_CommanderStaticArmor {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{654B48675E7F38DB}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{654B48675E7F3BEB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{654B48675E7F3BB5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{654B48675E7F3B4F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{654B48675E7F3B05}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{654B48675E7F3AD8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+MatPBRMulti {
+ GlobalNMOMap "{828396E97BCB6813}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_interior_02_NMO.edds"
+ Color_1 0.025 0.025 0.025 1
+ BCR_1 "{B888CADB9299DD3E}Assets/_SharedData/Plastic/ST_Plastic_Leather01_1m_BCR.edds"
+ NMO_1 "{805071494BEE8FA0}Assets/_SharedData/Plastic/ST_Plastic_Leather01_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{64D8246C0991C351}" {
+  TilingU 8
+  TilingV 8
+ }
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A955ADB050317763}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_MCR.edds"
+ NMOMap "{6DE69CB3FBB8B523}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_NMO.edds"
+}

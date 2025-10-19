@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{0331820D88A5E994}Assets/Vehicles/Tracked/M1A1/Lights/m1a1_abrams_breaklight_R.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6329264D23FEBFA2}" {
+     SourceMaterial "m1a1_abrams_breaklights"
+     AssignedMaterial "{01E4C1FE464D6EFD}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Breakinglights.emat"
+    }
+   }
+   MeshParams {
+    MeshParam m1a1_abrams_breaklightR {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_TaillightR {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6329264D23DFFEEF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6329264D23DFFE41}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6329264D23DFFE30}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6329264D23DFF1E1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6329264D23DFF1DB}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6329264D23DFF18D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

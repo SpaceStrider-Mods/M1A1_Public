@@ -1,0 +1,22 @@
+MatPBRMulti {
+ GlobalMCRMap "{A955ADB050317763}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_MCR.edds"
+ GlobalMCRMode Multiply
+ MCROpacityBlend 1
+ MCRBrightness 0.4
+ OverlayBlackPower 1
+ OverlayWhitePower 1
+ MaskMap "{A38804FD868B422C}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_GLOBAL_MASK.edds"
+ MaskRedScale 1
+ MaskGreenScale 1
+ MaskBlueScale 1
+ VFXMap "{1D94991BA7DC044F}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_VFX.edds"
+ GlobalNMOMap "{6DE69CB3FBB8B523}Assets/Vehicles/Tracked/M1A1/data/Textures/M1A2Additions_NMO.edds"
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{654B486615689686}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_1 1.949
+ Metalness_1 0
+}

@@ -1,0 +1,648 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Smoke_RearM_Stc {
+   ShapeType Point
+   ShapeSize 0.03 0.03 0.03
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   BirthRate 3
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 0
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterX 0
+   CenterY 0.2
+   RotMultiplier 2
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 0.02
+   VelocityRND 0
+   VelAffect 0.9
+   AirResistance 1
+   AirResistanceRND 0
+   WindInfluence 0.3
+   GravityMultiply 0.01
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 25
+   RandomFrame 0
+   Lifetime 0.8
+   LifetimeRND 0.5
+   LifetimeShortening 0
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.302 0.397 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 0.5
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearM_Light {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.019 0.019 0.019
+   }
+   Alpha {
+    0 0 0.042 0.3 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearM_Stc_Medium {
+   ShapeType Point
+   ShapeSize 0.03 0.03 0.03
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   BirthRate 3
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 0
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterX 0
+   CenterY 0.2
+   RotMultiplier 2
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 0.02
+   VelocityRND 0
+   VelAffect 0.9
+   AirResistance 1
+   AirResistanceRND 0
+   WindInfluence 0.3
+   GravityMultiply 0.01
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 25
+   RandomFrame 0
+   Lifetime 0.8
+   LifetimeRND 0.5
+   LifetimeShortening 0
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.279 0.514 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 0.5
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearM_Medium {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.009 0.009 0.009
+   }
+   Alpha {
+    0 0 0.057 0.873 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearM_Stc_Heavy {
+   ShapeType Point
+   ShapeSize 0.03 0.03 0.03
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   BirthRate 5
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 0
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 2
+   CenterY 0.2
+   RotMultiplier 30
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.9
+   AirResistance 1
+   AirResistanceRND 0
+   WindInfluence 0.5
+   GravityMultiply 0.01
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 0
+   Lifetime 0.3
+   LifetimeRND 0.2
+   LifetimeShortening 1
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.015 1 1 0
+   }
+   Size {
+    0 0.4 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearM_Heavy {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 100
+   BirthRate 19
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.1 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.003 0.003 0.003
+   }
+   Alpha {
+    0 0 0.066 0.5697 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.156 0.07 0.437 0.23 0.63 0.448 0.763 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_P1_Medium {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 19
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset -0.8 1.9 -2.5
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.003 0.003 0.003
+   }
+   Alpha {
+    0 0 0.0896 0.9758 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.156 0.07 0.437 0.23 0.63 0.448 0.763 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_P1_Medium_02 {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 19
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset -0.8 1.9 -2.5
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.019 0.019 0.019
+   }
+   Alpha {
+    0 0 0.0535 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_P2_Medium_01 {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 19
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.8 1.9 -2.5
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.01
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.003 0.003 0.003
+   }
+   Alpha {
+    0 0 0.1079 0.5091 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.156 0.07 0.437 0.23 0.63 0.448 0.763 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_P2_Medium_02 {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 19
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.8 1.8 -1.9
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.03
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.003 0.003 0.003
+   }
+   Alpha {
+    0 0 0.1027 0.4 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.156 0.07 0.437 0.23 0.63 0.448 0.763 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_P2_Medium_Lower_01 {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.8 1.8 -1.9
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.019 0.019 0.019
+   }
+   Alpha {
+    0 0 0.0535 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearR {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0.8 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.019 0.019 0.019
+   }
+   Alpha {
+    0 0 0.0567 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+  EmitterDef Smoke_RearL {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 360 0 0
+   ConeAngleMinDist 30
+   ConeAngleRndRange 30
+   MaxNum 50
+   BirthRate 10
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset -0.8 1.2 -4.2
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 1
+   Material "{106C63A94553E961}Particles/_Materials/Gas/Smoke_Exhaust_Anim.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   CenterY 0.2
+   RotMultiplier 40
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   VelAffect 0.1
+   AirResistance 0.4
+   AirResistanceRND 0
+   WindInfluence 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   EnableCollisions 1
+   AnimOnce 1
+   AnimFPS 30
+   RandomFrame 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   Color {
+    0.003 0.019 0.019 0.019
+   }
+   Alpha {
+    0 0 0.0698 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.259 1 1
+   }
+   EmittingTime 10
+  }
+ }
+}

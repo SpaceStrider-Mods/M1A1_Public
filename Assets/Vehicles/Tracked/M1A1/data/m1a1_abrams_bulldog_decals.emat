@@ -1,0 +1,6 @@
+MatPBRDecal : "{C8309C19AF8E9580}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_decals.emat" {
+ Color 0.033 0.033 0.027 1
+ RoughnessScale 2
+ OpacityMap "{7579AD2FFCD23EAB}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_decals_bulldog_A.edds"
+ NMOMap "{E33A5A9E39D9E660}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_NMO.edds"
+}

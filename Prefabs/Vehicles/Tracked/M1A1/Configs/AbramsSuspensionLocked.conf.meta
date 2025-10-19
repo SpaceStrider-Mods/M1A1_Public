@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3072E59BE51FD129}Prefabs/Vehicles/Tracked/M1A1/Configs/AbramsSuspensionLocked.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+ }
+}

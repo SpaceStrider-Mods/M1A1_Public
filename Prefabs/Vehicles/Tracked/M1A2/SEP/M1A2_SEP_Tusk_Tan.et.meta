@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{873727901D36C6E2}Prefabs/Vehicles/Tracked/M1A2/SEP/M1A2_SEP_Tusk_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

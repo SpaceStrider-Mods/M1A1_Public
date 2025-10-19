@@ -1,0 +1,13 @@
+GenericEntity : "{778FE688458FCF2D}Prefabs/Vehicles/Tracked/M1A2/VehParts/CommanderSight/M1A2_CommanderSight.et" {
+ ID "5D3A5561861880F5"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{632A43CBF8057BC0}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{2467F604BE51BC97}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_MERDC.emat"
+    }
+   }
+  }
+ }
+}

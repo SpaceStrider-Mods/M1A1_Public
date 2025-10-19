@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2A466A90E1A7168F}Assets/Vehicles/Tracked/M1A1/Data/m1a1_abrams_interior_hatch.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

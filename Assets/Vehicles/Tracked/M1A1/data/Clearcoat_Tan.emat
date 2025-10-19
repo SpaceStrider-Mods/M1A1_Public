@@ -1,0 +1,21 @@
+MatPBRMulti : "{0297528F2283D0F3}Assets/Vehicles/Tracked/M1A1/data/Clearcoat.emat" {
+ GlobalMCRMode Multiply
+ MCRBrightness 1.4
+ MudOpacity 0.9
+ MudColor 0.184 0.16 0.128 1
+ MudRoughness 2
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{E47E15E1FA97F658}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_02_NMO.edds"
+ MudMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ DirtOpacity 0.208
+ Color_3 0.109 0.084 0.056 1
+ MaskSharpness_3 1
+ MaskOffset_3 0.023
+ MaskUVScale_3 1
+ Metalness_3 4
+ Color_2 0.109 0.084 0.056 1
+ MaskOffset_2 0.3
+ Roughness_2 1.4
+ Color_1 0.06 0.053 0.04 1
+}

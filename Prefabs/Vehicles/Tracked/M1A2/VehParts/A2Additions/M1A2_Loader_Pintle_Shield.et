@@ -1,0 +1,25 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{2ACB1FB4E26D3457}Assets/Vehicles/Tracked/M1A1/PintleMount_Shield.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Basket {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{654B7BE20E2D07A2}" {
+      }
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+ }
+ coords 4.703 3.499 1.774
+}

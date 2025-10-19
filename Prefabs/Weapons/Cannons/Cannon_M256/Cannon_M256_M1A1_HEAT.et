@@ -1,0 +1,36 @@
+GenericEntity : "{B03A694CD3B11747}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{64DB19CF5FEA2F40}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{64DB19CF5FEA2F2D}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{64DB19CF5FEA2F23}" {
+     SourceMaterial "m1a1_abrams_interior_01"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{64DB19CF5FEA2F27}" {
+     SourceMaterial "m1a1_abrams_interior_02"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWellSPC_Cannon_M256_HEATFS "{655616ED8469FF3B}" {
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+     }
+     MagazineTemplate "{C3E53BBF48FA6443}Prefabs/Weapons/Magazines/Canisters_120_M256_HEATFS_M830.et"
+    }
+   }
+  }
+ }
+}

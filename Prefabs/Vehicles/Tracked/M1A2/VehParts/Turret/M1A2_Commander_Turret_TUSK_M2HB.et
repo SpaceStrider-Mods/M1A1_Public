@@ -1,0 +1,25 @@
+Turret : "{84F0C42B580A4E99}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Commander_Turret_TUSK.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{65481B23F13E0713}" {
+   ikTargets {
+    AnimationIKTargetInfo "{65481B23F13E0737}" {
+     PositionInfo PointInfo "{65481B23F13E0729}" {
+      Offset -0.0667 0.1681 -0.6093
+     }
+    }
+    AnimationIKTargetInfo "{65481B23F13E072B}" {
+     PositionInfo PointInfo "{65481B23F13E072C}" {
+      Offset 0.0807 0.1664 -0.6019
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   Enabled 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+   }
+  }
+ }
+ coords 82.254 1 1244.355
+}

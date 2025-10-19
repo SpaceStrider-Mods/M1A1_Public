@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C366EF1984AD7924}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskIISupports_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4EE9932DE78703D7}Assets/Vehicles/Tracked/M1A1/Data/m240_int.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,18 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{F23ABA59FBFADC78}Assets/Vehicles/Tracked/M1A1/Lights/m1a1_abrams_breaklight_L.xob"
+  }
+  ActionsManagerComponent "{607AF25B1E930E81}" {
+   ActionContexts {
+    UserActionContext "{607AF25B752D8670}" {
+     Position PointInfo "{607AF25B752D867A}" {
+      Offset -1.695 1.61 -4.1
+     }
+    }
+   }
+  }
+ }
+ coords -18.928 0.997 -16.09
+}

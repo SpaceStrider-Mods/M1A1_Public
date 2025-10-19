@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A0F2F971E92EA74}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M256_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

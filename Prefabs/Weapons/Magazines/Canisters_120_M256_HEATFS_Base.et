@@ -1,0 +1,70 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 25
+   PriorityAgainstVehicles 50
+   UsedAgainst 23
+   IndirectlyUsedAgainst 3
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#SPC-Magazine_M256_HEATFS_Name"
+     Description "#SPC-Magazine_M256_HEATFS_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{647C15EE997D0B3C}" {
+     Weight 0
+     SizeSetupStrategy Manual
+     ItemDimensions 35 35 35
+     ItemVolume 25000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{647C15EE997D0B0D}" {
+      CameraDistanceToItem 2.5
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   WeightPerAmmo 24
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellSPC_Cannon_M256_HEATFS "{655616EDA5E40E10}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#SPC-Magazine_M256_HEATFS_Name"
+    Description "#SPC-Magazine_M256_HEATFS_Description"
+    m_sAmmoCaliber "#SPC-AmmunitionID_120x44mm"
+    m_sAmmoType "HEATFS"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{D316E62060BC454B}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_150rnd_HEIT.xob"
+   MaxAmmo 20
+   AmmoConfig "{381519E91845C864}Configs/Weapons/Ammo/Ammo_120mm_M256.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{AEFCDCB3A4882310}Assets/Weapons/Ammo/120mm/M829A3_Cartridge.xob"
+  }
+  SCR_SoundDataComponent "{5B18D200EBB5EA25}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{DB06E3D5DFC046B4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rocket.acp"
+    }
+   }
+  }
+ }
+ coords 100.798 0 1234.775
+}

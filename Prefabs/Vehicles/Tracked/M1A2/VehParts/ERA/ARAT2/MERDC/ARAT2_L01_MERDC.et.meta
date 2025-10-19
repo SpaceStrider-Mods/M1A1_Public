@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{60F9BF9FB557815F}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/MERDC/ARAT2_L01_MERDC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

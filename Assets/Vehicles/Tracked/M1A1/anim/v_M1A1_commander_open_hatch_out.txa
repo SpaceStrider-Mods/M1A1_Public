@@ -1,0 +1,115 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 70
+ $node "v_body" {
+  $keys t q s {
+   $frame 0 70 {
+    #t 0 0.2717258 0.03524
+   }
+  }
+  $node "v_turret_01" {
+   $keys t q s {
+    $frame 0 70 {
+     #t -0.0110284 0.3922783 -0.5037755
+    }
+   }
+   $node "v_turret_02" {
+    $keys t q s {
+     $frame 0 70 {
+      #t 0.4991289 0.8692999 -0.719214
+     }
+    }
+    $node "v_commander_hatch" {
+     $keys q s {
+      $frame 0 34 {
+      }
+      $frame 35 {
+       #q -0.00556816 0 0 0.9999845
+      }
+      $frame 36 {
+       #q -0.02166086 0 0 0.9997654
+      }
+      $frame 37 {
+       #q -0.04751575 0 0 0.99887055
+      }
+      $frame 38 {
+       #q -0.0824607 0 0 0.99659437
+      }
+      $frame 39 {
+       #q -0.12576354 0 0 0.9920603
+      }
+      $frame 40 {
+       #q -0.17648557 0 0 0.9843033
+      }
+      $frame 41 {
+       #q -0.23336041 0 0 0.97239035
+      }
+      $frame 42 {
+       #q -0.29472899 0 0 0.95558095
+      }
+      $frame 43 {
+       #q -0.35856658 0 0 0.9335041
+      }
+      $frame 44 {
+       #q -0.42261833 0 0 0.90630788
+      }
+      $frame 45 {
+       #q -0.48462349 0 0 0.87472284
+      }
+      $frame 46 {
+       #q -0.54256934 0 0 0.84001106
+      }
+      $frame 47 {
+       #q -0.59489304 0 0 0.80380493
+      }
+      $frame 48 {
+       #q -0.64057732 0 0 0.76789379
+      }
+      $frame 49 {
+       #q -0.6791231 0 0 0.73402447
+      }
+      $frame 50 {
+       #q -0.71043074 0 0 0.70376718
+      }
+      $frame 51 {
+       #q -0.73463666 0 0 0.67846078
+      }
+      $frame 52 {
+       #q -0.75194138 0 0 0.65923011
+      }
+      $frame 53 {
+       #q -0.76245332 0 0 0.64704323
+      }
+      $frame 54 70 {
+       #q -0.76604456 0 0 0.64278764
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 34 "Event_Vehicle_OpeningDoor_05" "AnimSrcEventGeneric \"{66773570FBE957C5}\" {
+ Name \"Event_Vehicle_OpeningDoor_05\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 19 "" 0
+  #event 34 "Sound" "AnimSrcEventGeneric \"{66773570FBE95790}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_TURRET_DOOR_OPEN_START.v_commander_hatch\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 55 "Sound" "AnimSrcEventGeneric \"{66773570FBE95778}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_TURRET_DOOR_OPEN_FINISH.v_commander_hatch\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+}

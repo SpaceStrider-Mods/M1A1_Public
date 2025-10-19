@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{E90288B51C65C41B}Assets/Weapons/HeavyWeapons/M1A1Cannon/m1a1_cannon_Wrap.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5D34B85F7DE6B0B7}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{662577BC82798311}Assets/Vehicles/Tracked/M1A1/data/CamoNet_01_fabric_LCSS_M1A1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CannonWrap {
+    }
+   }
+   Common TXOCommonClass "{5D34B85F7DD143BB}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D34B85F7DD14C8C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D34B85F7DD14CE1}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D34B85F7DD14CDB}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D34B85F7DD14C3D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

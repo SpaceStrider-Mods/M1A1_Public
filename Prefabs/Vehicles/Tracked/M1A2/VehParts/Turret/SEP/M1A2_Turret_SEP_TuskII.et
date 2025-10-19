@@ -1,0 +1,13 @@
+Turret : "{63C8BB732A248097}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEP/M1A2_Turret_SEP_Tusk.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo ARAT {
+     Enabled 1
+    }
+   }
+  }
+ }
+ coords 102.283 1 1404.062
+}

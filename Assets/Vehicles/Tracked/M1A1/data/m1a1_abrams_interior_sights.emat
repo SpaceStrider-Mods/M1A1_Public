@@ -1,0 +1,7 @@
+MatPBRBasicGlass {
+ Color 0.109 0.109 0.109 1
+ AlphaMul 2.952
+ BCRMap "{E05D515EDE26551C}Assets/_SharedData/Glass/ST_Glass_Dirt_01_BCR.edds"
+ OpacityMap "{9DF068B59770CC29}Assets/_SharedData/Glass/ST_Glass_Dirt_02_A.edds"
+ RefractionIntensity 0.279
+}

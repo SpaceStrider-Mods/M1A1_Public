@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D522B9B5D9A2B0DA}Common/Materials/Game/Armor/armor_900mm_DU.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

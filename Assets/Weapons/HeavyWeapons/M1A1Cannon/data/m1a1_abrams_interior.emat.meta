@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{426ABA1D28CB95B9}Assets/Weapons/HeavyWeapons/M1A1Cannon/Data/m1a1_abrams_interior.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

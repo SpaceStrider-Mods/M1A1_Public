@@ -1,0 +1,13 @@
+GenericEntity : "{F96F7F236286E2FC}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention.et" {
+ ID "60767198D1CC85B0"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{60F4A0A5A8A6CFFB}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{2467F604BE51BC97}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_MERDC.emat"
+    }
+   }
+  }
+ }
+}

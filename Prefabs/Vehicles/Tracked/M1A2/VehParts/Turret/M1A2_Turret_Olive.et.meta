@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CAED1215E09CC122}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

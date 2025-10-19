@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A432FE3C14FB7BD7}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Tusk_Turret_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

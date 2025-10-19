@@ -1,0 +1,21 @@
+GenericEntity : "{316CBF0FCF276778}Prefabs/Weapons/Magazines/Canisters_120_M256_APFSDS_Base.et" {
+ ID "5F8B274FDBD4F390"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Description "#SPC-Magazine_M256_APFSDS_A2_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Description "#SPC-Magazine_M256_APFSDS_A2_Description"
+   }
+   AmmoMapping {
+    4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+   }
+  }
+ }
+ coords -0.212 0.371 0.305
+}
