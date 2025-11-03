@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1E782EE95202E0CB}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_lights.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

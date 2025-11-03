@@ -1,0 +1,148 @@
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{65476ACEF895906A}" {
+     AnimDoorIndex 5
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName "commander"
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "CommanderHatch"
+      }
+      "Sort Priority" 2
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      UIInfo SCR_ActionUIInfo "{509D566643F0DEA8}" {
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D47DC1C5730}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D47D8169C4A}" {
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "Commander"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "Commander"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "CommanderHatch"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "gunner_idle"
+      Offset -0.1725 0.2265 -0.5272
+     }
+     DoorInfoList {
+      0
+     }
+     UIInfo SCR_ActionUIInfo "{50870A10DCCDED83}" {
+      Name "#AR-VehiclePosition_Commander"
+     }
+     BaseCoverage 0
+     CanTurnOut 1
+     TurnOutDoorIdx 0
+     SidestepRayZOffset 0
+     m_DefaultOccupantData SCR_DefaultOccupantData "{659B64379329623C}" {
+      m_sDefaultOccupantPrefab "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+  WCS_Armament_DispenserManagerComponent "{62F2DDF051516B1D}" {
+   m_SmokeInfo WCS_Armament_DispenserSmokeInfo "{62F2DDF051EFAE07}" {
+    m_aActionEnabledCompartments {
+     "commander"
+    }
+   }
+  }
+  WCS_Armament_VehicleCameraComponent "{65476AC0E9A09D3E}" {
+  }
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    WCS_Armament_DispenserSlotInfo M6_Dischargers {
+     Enabled 0
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     ContextName "Commander"
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset -0.1753 0.2735 -0.6226
+     }
+     Radius 0.4
+    }
+    UserActionContext "{6548D63238656A39}" {
+     ContextName "default"
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "Scene_Root"
+      Offset 0.2745 2.8857 0.0255
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SPC_RearmFromVehicleInventoryAction "{6548D63223BA53F4}" {
+     ParentContextList {
+      "default"
+     }
+     m_sCompatibleProjectiles "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
+     m_iWeaponIndex 0
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   Enabled 0
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+   }
+   AutoCommandBind 1
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   DeactivationDelay 2
+  }
+  VehicleAnimationComponent "{5B24B3A9B284739F}" {
+   AnimGraph "{7209B480AE95B73B}Assets/Vehicles/Tracked/M1A1/workspaces/M1A1.agr"
+   AnimInstance "{AC6294F122B2FCE0}Assets/Vehicles/Tracked/M1A1/workspaces/M1A1_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AnimVariables {
+    AnimationVariable "{65476ACFF05F40DE}" {
+     VariableName "Yaw_Commander"
+     SignalName "AimTurnCommanderTurret"
+    }
+    AnimationVariable "{65476ACFF35438B0}" {
+     VariableName "Pitch_Commander"
+     SignalName "AimElevationCommanderTurret"
+    }
+   }
+   AnimInjection AnimationAttachmentInfo "{5B24B3A9B284739E}" {
+    AnimGraph "{7209B480AE95B73B}Assets/Vehicles/Tracked/M1A1/workspaces/M1A1.agr"
+    AnimInstance "{C58B5F68205B857D}Assets/Vehicles/Tracked/M1A1/workspaces/M1A1_player.asi"
+   }
+   DeactivationDelay 2
+  }
+ }
+ coords 142.956 1 1241
+}

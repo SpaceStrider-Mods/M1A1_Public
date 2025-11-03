@@ -1,0 +1,4 @@
+MatPBRMulti : "{3A0E258ABD3F27F4}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_era.emat" {
+ Color_2 0.184 0.144 0.095 1
+ MaskOffset_2 0.3
+}

@@ -1,0 +1,27 @@
+GenericEntity : "{1C920F1E41CAE72F}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_SEPv2_TUSK_CommandersCupula.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6571426595238459}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{2808A996756DD533}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{6571426AE3491DDC}" {
+   Slots {
+    EntitySlotInfo Armor_1 {
+     Prefab "{6E3B7339D32A6187}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor_Tan.et"
+    }
+    EntitySlotInfo Armor_2 {
+     Prefab "{6A5AF3FA1D378448}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor_02_Tan.et"
+    }
+    EntitySlotInfo Gun_Mount {
+     Prefab "{8D8C95ED9685E24D}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersCupula_WeaponMount_Tan.et"
+    }
+   }
+  }
+ }
+ coords 72.788 1 1242.466
+}

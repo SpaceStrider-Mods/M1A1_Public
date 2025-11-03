@@ -1,0 +1,52 @@
+Turret : "{79991EBD111EC9CA}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{60F4A0A4B04D6F2F}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{B6C3C5299A34D683}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Tan.emat"
+    }
+    MaterialAssignClass "{60F4A0A4B04D6F46}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{AB64F85E018034A8}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_bulldog_decals.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader : "{BF269FD613320BD2}Prefabs/Vehicles/Core/Configs/CargoCompartment_M1A1_Loader.conf" {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_Loader_idle"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Prefab "{E9737CBBCF78643C}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Commander_Turret_Tan.et"
+    }
+    EntitySlotInfo Commander_sight {
+     Prefab "{157A91388639BDD3}Prefabs/Vehicles/Tracked/M1A2/VehParts/CommanderSight/M1A2_CommanderSight_Tan.et"
+    }
+    RegisteringComponentSlotInfo BasketExtention {
+     Prefab "{840EC6D3791EF277}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention_Tan.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{6FF0CE9666D7B37C}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A2_Tan.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    SCR_ResupplyTurretBeltSupportStationAction "{64D71DA30E4066B6}" {
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{64D61B2C712CDF97}" {
+      m_sItemPrefab "{519224EB679E76B8}Prefabs/Weapons/Magazines/Canisters_120_M256_APFSDS_M829A2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 110.129 1 1277.179
+}

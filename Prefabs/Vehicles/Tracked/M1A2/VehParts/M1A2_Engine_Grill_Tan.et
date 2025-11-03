@@ -1,0 +1,13 @@
+GenericEntity : "{C09AF6A3940A3390}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Engine_Grill.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6070695F391D1763}" {
+     SourceMaterial "Clearcoat"
+     AssignedMaterial "{BDF35297B9F3C91E}Assets/Vehicles/Tracked/M1A1/data/Clearcoat_Tan.emat"
+    }
+   }
+  }
+ }
+}

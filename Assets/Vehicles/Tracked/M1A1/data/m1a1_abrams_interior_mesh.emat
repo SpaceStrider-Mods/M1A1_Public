@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 0.141 0.141 0.141 1
+ BlendMode AlphaBlend
+ BCRMap "{16DE4E86EFB365EA}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Rusted_BCR.edds"
+ OpacityMap "{F39A7C87629B66E8}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Mesh_A.edds"
+ NMOMap "{942211218ACAE648}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Mesh_N.edds"
+ GlobalMapsUVTransform MatUVTransform "{64D72605122C2921}" {
+  TilingU 40
+  TilingV 40
+ }
+}

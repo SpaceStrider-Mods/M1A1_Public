@@ -1,0 +1,721 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 28685
+   name "Signal 28"
+   tl -64 -240
+   res "{FC5C9C507476D6B9}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_InsideVehicleSource.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 29709
+         port 2
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 15
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 17420
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 15 37 38 66 75 81
+   }
+   outputsport {
+    7 47
+   }
+   inputvalues {
+    0 1 0 0.5 0 0 400 1000 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 1 10000 10000 1
+   }
+   path "{FC5C9C507476D6B9}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_InsideVehicleSource.sig"
+  }
+  SignalClass {
+   id 29709
+   name "Signal 29"
+   tl -240 -224
+   res "{E213DFE8E16F6FD5}Sounds/_SharedData/Signals/OneSignal/IsInPlayerVehicle.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{E213DFE8E16F6FD5}Sounds/_SharedData/Signals/OneSignal/IsInPlayerVehicle.sig"
+  }
+  SignalClass {
+   id 43021
+   name "Reverb Vehicles InCabin"
+   tl 608 144
+   res "{A0E828E84363A3A0}Sounds/_SharedData/Signals/Reverb/Reverb_Vehicles_InCabin.sig"
+   inputsport {
+    36 37 39 56 58 71 78 92
+   }
+   outputsport {
+    5 6 68 96 97 98
+   }
+   inputvalues {
+    0 0 0 16000 16000 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 16000 16000 100 1 1
+   }
+   path "{A0E828E84363A3A0}Sounds/_SharedData/Signals/Reverb/Reverb_Vehicles_InCabin.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 1033
+   name "SOUND_DRY"
+   version 5
+   tl 192 0
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 2066
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 38923
+   outStatePort 7175
+  }
+  SoundClass {
+   id 46089
+   name "SOUND_RELOAD"
+   version 5
+   tl 112 528
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 47122
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 38923
+   outStatePort 6151
+  }
+  SoundClass {
+   id 50185
+   name "SOUND_UNLOAD"
+   version 5
+   tl 113 669
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 45074
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    48 0
+   }
+   outState 38923
+   outStatePort 6151
+  }
+ }
+ mixers {
+  MixerClass {
+   id 38923
+   name "OutputState 64"
+   version 4
+   tl 608 -16
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 6151
+     links {
+      ConnectionClass connection {
+       id 46089
+       port 65
+      }
+      ConnectionClass connection {
+       id 50185
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 7175
+     links {
+      ConnectionClass connection {
+       id 1033
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 300039
+     links {
+      ConnectionClass connection {
+       id 39965
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 301063
+     links {
+      ConnectionClass connection {
+       id 42013
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 302087
+     links {
+      ConnectionClass connection {
+       id 40989
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    939524099 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 17420
+   name "Constant 370"
+   version 5
+   tl -240 -128
+   "Constant values" {
+    IOPConstantsValueClass VEHICLE_COVERAGE {
+     Key "VEHICLE_COVERAGE"
+     Value 0.4
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 2066
+   name "SOUND_DRY"
+   version 5
+   tl -64 0
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 31772
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 22547
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 4117
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 13316
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 45074
+   name "SOUND_UNLOAD"
+   version 5
+   tl -96 672
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 31772
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 44051
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 4117
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 55300
+       port 65
+      }
+      ConnectionClass connection {
+       id 58372
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   Enable 1
+   Position 0 0.5 -0.3
+  }
+  ShaderClass {
+   id 47122
+   name "SOUND_RELOAD"
+   version 5
+   tl -96 528
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 31772
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 44051
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 4117
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 53252
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   Enable 1
+   Position 0 0.5 -0.3
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{D6921F7062BE7960}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-60LUFS_to_-55LUFS.conf" {
+   id 22547
+   version 5
+   tl -64 -368
+   parent "{D6921F7062BE7960}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-60LUFS_to_-55LUFS.conf"
+  }
+  AmplitudeClass : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 44051
+   version 5
+   tl -96 448
+   ctl 0 -24
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{65257CB7AD05C1FD}Sounds/_SharedData/Configs/Frequency/Weapons/Frequency_Weapons_Handling_Rifle.conf" {
+   id 4117
+   version 5
+   tl -64 -304
+   parent "{65257CB7AD05C1FD}Sounds/_SharedData/Configs/Frequency/Weapons/Frequency_Weapons_Handling_Rifle.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 28685
+       port 47
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+   dynamicUpdate 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 13316
+   name "Shot_Dry"
+   version 7
+   tl -240 0
+   Volume -22
+   Pitch -6
+   "Pitch variance" 0.25
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{3C445C192FDFF399}Sounds/Weapons/Rifles/SVD/Samples/Weapons_Rifles_SVD_DryFire_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A55AE5803238C209}Sounds/Weapons/Rifles/SVD/Samples/Weapons_Rifles_SVD_DryFire_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D2508D08C69A2D79}Sounds/Weapons/Rifles/SVD/Samples/Weapons_Rifles_SVD_DryFire_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D5977759A01C97BA}Sounds/Weapons/Rifles/SVD/Samples/Weapons_Rifles_SVD_DryFire_04.wav"
+     Index 3
+    }
+   }
+  }
+  BankLocalClass {
+   id 53252
+   name "Load Partial"
+   version 7
+   tl -304 528
+   Volume -4.834
+   "Pitch variance" 0.3
+   "Termination Fade Out" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{81A69FD1877B18E0}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{18B826489A9C2970}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6FB24EC06E3EC600}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_03.wav"
+     Index 2
+    }
+   }
+  }
+  BankLocalClass {
+   id 55300
+   name "Load Partial"
+   version 7
+   tl -304 672
+   Volume -4.834
+   "Pitch variance" 0.3
+   "Termination Fade Out" 250
+   Offset 500
+   "Fade in time" 150
+   Sustain 5
+   "Fade out function" SCurve
+   "Fade out time" 450
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{81A69FD1877B18E0}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{18B826489A9C2970}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6FB24EC06E3EC600}Sounds/Weapons/HeavyWeapons/M242/Samples/CannonReload/Weapons_M242_Reload_Partial_03.wav"
+     Index 2
+    }
+   }
+  }
+  BankLocalClass {
+   id 58372
+   name "Turret Reload"
+   version 7
+   tl -304 736
+   Volume -16.745
+   "Termination Fade Out" 250
+   Silence 180
+   Offset 550
+   Sustain 5
+   "Fade out time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{AE807FC27D016F96}Sounds/Weapons/HeavyWeapons/KPVT/Samples/Handling/Weapons_HeavyWeapons_KPVT_TurretReload.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass : "{2D1C83B30287C385}Sounds/_SharedData/Configs/Spatiality/Vehicles/Spatiality_Vehicles_Turret.conf" {
+   id 31772
+   version 5
+   tl -64 -432
+   parent "{2D1C83B30287C385}Sounds/_SharedData/Configs/Spatiality/Vehicles/Spatiality_Vehicles_Turret.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 39965
+   name "AuxOut Rev Small"
+   version 5
+   tl 608 384
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 1033
+       port 5
+      }
+      ConnectionClass connection {
+       id 46089
+       port 5
+      }
+      ConnectionClass connection {
+       id 50185
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 96
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 6
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 300039
+  }
+  AuxOutClass {
+   id 40989
+   name "AuxOut Rev Large"
+   version 5
+   tl 608 608
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 1033
+       port 5
+      }
+      ConnectionClass connection {
+       id 46089
+       port 5
+      }
+      ConnectionClass connection {
+       id 50185
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 98
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 6
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 302087
+  }
+  AuxOutClass {
+   id 42013
+   name "AuxOut Rev Medium"
+   version 5
+   tl 608 496
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 1033
+       port 5
+      }
+      ConnectionClass connection {
+       id 46089
+       port 5
+      }
+      ConnectionClass connection {
+       id 50185
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 97
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 43021
+       port 6
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 301063
+  }
+ }
+ groups {
+  GroupClass {
+   id 52227
+   name "Partial Cannon Mag Reload"
+   children {
+    50185 47122 45074 44051 46089 53252 54276 55300 56327 57351 58372
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+ }
+ version 1
+ sourcesLimit 1
+ listenerWindowModel "{32F27DBE1E6763C3}Assets/Vehicles/Wheeled/LAV25/LAV25_turret.xob"
+}

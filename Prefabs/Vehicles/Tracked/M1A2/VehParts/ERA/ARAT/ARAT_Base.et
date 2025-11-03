@@ -1,0 +1,50 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseTriggerComponent "{60648780F21F0A71}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{60648780F21F0A7E}" {
+     EffectPrefab "{E7994524FD25549B}Prefabs/Weapons/Warheads/Warhead_ERA_ARAT.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{BD806B0C13D79E37}Assets/Vehicles/Tracked/M1A1/ERA/Blocks/m1a1_abrams_era_block.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 3000
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone ERA {
+     HZDefault 1
+     MaxHealth 50
+     DamageReduction 6
+     DamageThreshold 1
+     "Collision multiplier" 0
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.01
+     "Fragmentation multiplier" 0
+     "Explosive multiplier" 0.005
+     "Incendiary multiplier" 2
+     m_pDestructionHandler SCR_DestructionBaseHandler "{610770E26F13BB58}" {
+     }
+     m_sDestructionSoundEvent "SOUND_EXPLOSION"
+     m_sDestructionParticle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+    }
+   }
+  }
+  ActionsManagerComponent "{610770ECF076839F}" {
+   ActionContexts {
+    UserActionContext "{610770ECF78C4740}" {
+     ContextName "default"
+     Position PointInfo "{610770ECFBEF61B2}" {
+     }
+    }
+   }
+  }
+ }
+}

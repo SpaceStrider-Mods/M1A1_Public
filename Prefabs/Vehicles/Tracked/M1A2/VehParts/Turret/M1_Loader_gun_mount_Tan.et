@@ -1,0 +1,16 @@
+Turret : "{3C20F3B5FFB689AD}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1_Loader_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{656E2334A66AF098}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{2808A996756DD533}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions_Tan.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{22A8CC2CE0571D06}Prefabs/Weapons/HeavyWeapons/MG_M240_pintle_Tan.et"
+  }
+ }
+}

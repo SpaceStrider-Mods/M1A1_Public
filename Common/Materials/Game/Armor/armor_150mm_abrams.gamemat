@@ -1,0 +1,8 @@
+GameMaterial : "{0392E90C3BC537EE}Common/Materials/Game/armor.gamemat" {
+ BallisticInfo BallisticInfo "{527AC4219D9574AD}" {
+  KineticPenetrationResistance 1.2
+  ChemicalPenetrationResistance 5
+  ThicknessOverride Value
+  Thickness 150
+ }
+}

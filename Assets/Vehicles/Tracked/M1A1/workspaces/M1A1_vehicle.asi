@@ -1,0 +1,241 @@
+AnimSetInstanceSource "{6056956E628B3A5A}" {
+ Template "{968D52F76BB570C9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.ast"
+ Lines {
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Brake" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Clutch" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
+   Resource "{F569810FD872BCB2}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_In" {
+   Resource "{BB6E4492F8B3EB7D}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_driver_open_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_Out" {
+   Resource "{E3DE78D4E7193A29}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_driver_open_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeIn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeLoop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeoff" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOut" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Throttle" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{7228BB6A58089D8E}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{01B31CAA54EBE145}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{59484AC07E5E73E6}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{4C0390CFAC343852}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{4C0390CFAC343852}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle01" {
+   Resource "{A74CBCCA7AA0E677}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle01" {
+   Resource "{A74CBCCA7AA0E677}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle01" {
+   Resource "{2ED3BA131B1CFD68}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchIn" {
+   Resource "{FDCB683CABC84247}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchIn" {
+   Resource "{FDCB683CABC84247}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchOut" {
+   Resource "{502571002B4AA0FF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchOut" {
+   Resource "{502571002B4AA0FF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{7365D0C23E6F582A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{7365D0C23E6F582A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{86BE199793801C91}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{86BE199793801C91}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{56D3034DB071E175}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{56D3034DB071E175}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_OpenDoor_In" {
+   Resource "{3E14C78E2BDB5C0A}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_OpenDoor_Out" {
+   Resource "{646406695534E3A8}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_Out" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_In" {
+   Resource "{5F9885A697186602}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartIn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartLoop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out" {
+   Resource "{1F60412B852F9390}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_loader_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_In" {
+   Resource "{4C9A6081AB03DDB8}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_loader_close_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_Out" {
+   Resource "{7766E34E692F5812}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_loader_open_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_In" {
+   Resource "{A48085F96E45C5F4}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_loader_open_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out" {
+   Resource "{7E0F20DF50DCB56D}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_driver_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_In" {
+   Resource "{D822FB1B2535BF83}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_driver_close_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_In" {
+   Resource "{5F9885A697186602}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_Out" {
+   Resource "{646406695534E3A8}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_In" {
+   Resource "{3E14C78E2BDB5C0A}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_In" {
+   Resource "{5F9885A697186602}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_Out" {
+   Resource "{646406695534E3A8}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_In" {
+   Resource "{3E14C78E2BDB5C0A}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out_Back" {
+   Resource "{1F60412B852F9390}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_loader_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out_Back" {
+   Resource "{7E0F20DF50DCB56D}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_driver_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out_Back" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out_Back" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_Out_Back" {
+   Resource "{BCA93CD4F44BF7CA}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_close_hatch_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_SteeringExtreme" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_SteeringMain" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeIn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeLoop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOff" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOut" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HornIn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.TurnOut_HornLoop" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.TurnOut_HornOut" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_LightsOff" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_LightsOn" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_ShiftGear" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.TurretStick" {
+   Resource "{0D05AA93D5E38833}Assets/Vehicles/Wheeled/LAV25/anm/v_LAV25_empty.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{60569E1465FCB418}" {
+ }
+}

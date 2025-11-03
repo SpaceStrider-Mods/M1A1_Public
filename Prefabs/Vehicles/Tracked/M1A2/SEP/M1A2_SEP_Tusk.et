@@ -1,0 +1,46 @@
+Tank : "{645591AED39E8444}Prefabs/Vehicles/Tracked/M1A2/SEP/M1A2_SEP.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Abrams-EditableEntity_M1A2SEP_TUSK_Name"
+    m_Image "{B782898734896C5C}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A1/SEP/M1A2SEPTUSKOlive.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E38B84FCEFF0E6D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{620B03355DC4D036}" {
+     SlotTemplate InventoryStorageSlot "{620B03355E01C6DE}" {
+      Enabled 1
+     }
+    }
+    MultiSlotConfiguration "{654C13524D682243}" {
+     SlotTemplate InventoryStorageSlot "{620B03355E01C6DE}" {
+      Enabled 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{63C8BB732A248097}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEP/M1A2_Turret_SEP_Tusk.et"
+    }
+    RegisteringComponentSlotInfo EngineCover : Turret {
+     Prefab "{C09AF6A3940A3390}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Engine_Grill.et"
+     RegisterActions 0
+     RegisterControllers 0
+     RegisterWeapons 0
+     RegisterCompartments 0
+    }
+    RegisteringComponentSlotInfo TuskSupports : Turret {
+     Prefab "{A958A61D3FAEBC41}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports.et"
+     RegisterActions 0
+     RegisterControllers 0
+     RegisterWeapons 0
+    }
+   }
+  }
+ }
+ coords 106.634 1 1257.155
+}

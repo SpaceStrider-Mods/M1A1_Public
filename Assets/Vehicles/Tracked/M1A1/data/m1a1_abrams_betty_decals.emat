@@ -1,0 +1,10 @@
+MatPBRDecal : "{C8309C19AF8E9580}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_decals.emat" {
+ Color 0.136 0.136 0.136 1
+ MetalnessScale 1
+ BCRMap "{884C38B4DD0DD84A}Assets/_SharedData/Metal/ST_Metal_Worn_01_BCR.edds"
+ OpacityMap "{4E17C93CB4D90B3C}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_decals_betty_A.edds"
+ NMOMap "{B0948326047A8AD4}Assets/_SharedData/Metal/ST_Metal_Worn_01_NMO.edds"
+ NormalCombinePower 0
+ GBufferRoughness 0
+ GBufferMetalness 0
+}

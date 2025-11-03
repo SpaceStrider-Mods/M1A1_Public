@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{66BB8A7B18E73118}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2Turret/ARAT2_Turret_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

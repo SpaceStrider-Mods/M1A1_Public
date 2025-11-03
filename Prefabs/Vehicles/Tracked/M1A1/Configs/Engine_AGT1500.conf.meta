@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BA60EC10532C0EBE}Prefabs/Vehicles/Tracked/M1A1/Configs/Engine_AGT1500.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

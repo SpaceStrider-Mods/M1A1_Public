@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{34B48E3E0CDD062A}Sounds/Vehicles/_SharedData/Destruction/Vehicles_M1A1_Destruction_Fires.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

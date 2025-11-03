@@ -1,0 +1,14 @@
+GenericEntity : "{98F0826907882AF8}Prefabs/Weapons/MachineGuns/M240/MG_M240_coax.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWellSPC_M240M1A1 "{655616EDA9FB1FD6}" {
+     }
+     MagazineTemplate "{DBC84CB137A9347A}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_coax_2000rnd_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,26 @@
+Turret : "{06216CD6E41C3E95}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Commander_Turret_TUSK_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{659D3C576576511A}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{2808A996756DD533}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{654B7BE14AAD3E28}" {
+   Slots {
+    EntitySlotInfo Weapon_Mount {
+     Prefab "{8D8C95ED9685E24D}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersCupula_WeaponMount_Tan.et"
+    }
+    EntitySlotInfo Turret_Armor_01 {
+     Prefab "{6E3B7339D32A6187}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor_Tan.et"
+    }
+    EntitySlotInfo Turret_Armor_02 {
+     Prefab "{6A5AF3FA1D378448}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor_02_Tan.et"
+    }
+   }
+  }
+ }
+}

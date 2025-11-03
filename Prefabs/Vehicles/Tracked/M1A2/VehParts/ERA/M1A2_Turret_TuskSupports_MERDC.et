@@ -1,0 +1,12 @@
+GenericEntity : "{4FCC17FC3DE01EF6}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_Turret_TuskSupports.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{6070694487059878}" {
+   Slots {
+    RegisteringComponentSlotInfo ERA_01 {
+     Prefab "{0885B0DA171FAA39}Prefabs/Vehicles/Core/ERA/ARAT2Turret/ARAT2_Turret_MERDC.et"
+    }
+   }
+  }
+ }
+}

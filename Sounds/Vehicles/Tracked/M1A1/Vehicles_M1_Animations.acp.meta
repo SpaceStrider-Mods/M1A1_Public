@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5FBE77C7C76D7827}Sounds/Vehicles/Wheeled/BTR70/Vehicles_M1_Animations.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

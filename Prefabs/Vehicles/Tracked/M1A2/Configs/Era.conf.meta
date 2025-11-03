@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2C7DC1785F8C854B}Prefabs/Vehicles/Tracked/M1A2/Configs/Era.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

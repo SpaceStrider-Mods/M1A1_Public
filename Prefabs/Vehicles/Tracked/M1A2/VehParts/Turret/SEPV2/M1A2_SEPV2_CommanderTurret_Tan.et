@@ -1,0 +1,25 @@
+Turret : "{6AA1996F43E5CCB3}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/M1A2_SEPV2_CommanderTurret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{63395E514E1BF844}" {
+     SourceMaterial "STRYKER_Turret_Glass"
+     AssignedMaterial "{620EF62ACC3D8AB4}Assets/Vehicles/Wheeled/SPC_Stryker/data/STRYKER_Turret_Glass.emat"
+    }
+    MaterialAssignClass "{63395E514E1BF86A}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{A1E725BC4E6C777A}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    EntitySlotInfo Magazine {
+     Prefab "{6E950F35D72EE305}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine_Tan.et"
+    }
+   }
+  }
+ }
+ coords 67.34 1 1310.096
+}

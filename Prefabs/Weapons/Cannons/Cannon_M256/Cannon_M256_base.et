@@ -1,0 +1,133 @@
+GenericEntity : "{EFC76BFD1984F44D}Prefabs/Weapons/Core/Cannon_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{5A0F2F971E92EA74}Sounds/Weapons/HeavyWeapons/M256/Weapons_HeavyWeapons_M256_Shot.acp" "{5A06AE35734BFA3C}Sounds/Weapons/HeavyWeapons/M256/Weapons_HeavyWeapons_M256_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{C589CF4AB8972E9F}Assets/Weapons/HeavyWeapons/M1A1Cannon/m1a1_cannon.xob"
+  }
+  RigidBody "{646D5B6A7FED0118}" {
+   Mass 250
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5D667A653DFFE3CB}" {
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{646D5B6A7FED00E9}" {
+     }
+    }
+   }
+  }
+  SCR_WeaponBlastComponent "{6472329133E6C31C}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{64D864B03A0DF3C3}" : "{F2479EB25365462C}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Damage.conf" {
+     m_aDistanceDamageFalloff +{
+     }
+     m_aAngleDamageFalloff +{
+     }
+    }
+    SCR_WeaponBlastEffect "{64D864B025949515}" : "{32657999002110ED}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Concussion.conf" {
+     m_aDistanceDamageFalloff +{
+     }
+     m_aAngleDamageFalloff +{
+     }
+    }
+   }
+   m_BlastOrigin PointInfo "{64723291389EE107}" {
+    PivotID "barrel_muzzle"
+   }
+   m_fBlastLength 25
+   m_bCanBlastRicochet 0
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{EF06660D8B900D54}Particles/Weapons/Smoke_Cannon_Larger_Emmiter.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_muzzle"
+        Angles 0 0 0
+       }
+       ResetOnFire 0
+      }
+      SCR_MuzzleEffectComponent "{65F971F79C19E4D5}" {
+       ParticleEffect "{80F872E85C003706}Particles/Weapons/Smoke_120mm_GasReturn.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "barrel_muzzle"
+       }
+       ResetOnFire 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{39EA657B13F1E3D6}Particles/Weapons/Muzzle_120mm_Cannon.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+       }
+       ResetOnFire 0
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxBurst -1
+       RoundsPerMinute 10
+      }
+     }
+     MagazineWell MagazineWellSPC_Cannon_M256_APFSDS "{655616ED8EA9C10F}" {
+     }
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{646D5B6A7FED00F5}" {
+       LinearData RecoilData "{646D5B6A7FED00F7}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "#SPC-AmmunitionID_120x44mm"
+     }
+     ReloadDuration 35
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset -0.0831 -0.031 -1.3195
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+     AnimInstance "{E2DF83DEEE9355A1}Assets/Weapons/HeavyWeapons/workspaces/Cannon_weapon.asi"
+     AlwaysActive 1
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#SPC-Weapon_M256_Name"
+    Description "#AR-Weapon_M256_Description"
+    m_bShowWeaponName 1
+   }
+  }
+ }
+ coords 121.329 4.639 1247.328
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3C20F3B5FFB689AD}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1_Loader_gun_mount.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

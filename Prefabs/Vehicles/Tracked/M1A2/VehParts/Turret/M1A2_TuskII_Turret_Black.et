@@ -1,0 +1,39 @@
+Turret : "{7DF1E9EF24B53402}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_TuskII_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{60F4A0A4969EC24F}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{69CC25F19FDA2470}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Black.emat"
+    }
+    MaterialAssignClass "{60F4A0A4969EC260}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{EAA77589A0F7EF72}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_betty_decals.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Prefab "{10AD983BD6F96864}Prefabs/Vehicles/Tracked/M1A1/VehParts/CommanderTurret/M1A1_Commander_Turret_Black.et"
+    }
+    EntitySlotInfo Commander_sight {
+     Prefab "{4AE020555A11E73C}Prefabs/Vehicles/Tracked/M1A2/VehParts/CommanderSight/M1A2_CommanderSight_Black.et"
+    }
+    RegisteringComponentSlotInfo BasketExtention {
+     Prefab "{DC25BA9B2D15A8D6}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention_Black.et"
+    }
+    RegisteringComponentSlotInfo GunSupports {
+     Prefab "{E718E2708A8DD12F}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Turret_M2Supports_Black.et"
+    }
+    RegisteringComponentSlotInfo ARAT {
+     Prefab "{7B7922BE65C19AE8}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_Turret_TuskSupports_Black.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{A9EAD5A146153CF2}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A2_Black.et"
+  }
+ }
+}

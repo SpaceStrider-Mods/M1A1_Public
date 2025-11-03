@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D6D7AFEAECF18A52}Prefabs/Vehicles/Tracked/M1A1/Configs/VehicleSimulationTire_Abrams.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

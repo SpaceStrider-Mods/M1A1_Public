@@ -1,0 +1,52 @@
+Turret : "{7212F7D48BAD7757}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEP/M1A2_Turret_SEP.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{654B7BEA95FB09BD}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{B6C3C5299A34D683}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Tan.emat"
+    }
+    MaterialAssignClass "{654B7BEA95FB094D}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{AB64F85E018034A8}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_bulldog_decals.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader : "{BF269FD613320BD2}Prefabs/Vehicles/Core/Configs/CargoCompartment_M1A1_Loader.conf" {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_Loader_idle"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Prefab "{E9737CBBCF78643C}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Commander_Turret_Tan.et"
+    }
+    RegisteringComponentSlotInfo Commander_sight {
+     Prefab "{157A91388639BDD3}Prefabs/Vehicles/Tracked/M1A2/VehParts/CommanderSight/M1A2_CommanderSight_Tan.et"
+    }
+    RegisteringComponentSlotInfo BasketExtention {
+     Prefab "{840EC6D3791EF277}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention_Tan.et"
+    }
+    RegisteringComponentSlotInfo Warlock {
+     Prefab "{F36CF1EAFE8DEFEF}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_Warlock_Jammer_Tan.et"
+    }
+    RegisteringComponentSlotInfo SEP_CommandersCupula {
+     Prefab "{6B9AD45B3949B359}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_SEP_CommandersCupula_Tan.et"
+    }
+    RegisteringComponentSlotInfo LoaderArmor {
+     Prefab "{BD8B7F247B66E52D}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_LoaderArmor_Tan.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{6FF0CE9666D7B37C}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A2_Tan.et"
+  }
+ }
+ coords 134.08 1 1276.662
+}

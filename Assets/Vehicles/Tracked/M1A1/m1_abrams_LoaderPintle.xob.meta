@@ -1,0 +1,86 @@
+MetaFileClass {
+ Name "{32645DFFBF864418}Assets/Vehicles/Tracked/M1A1/m1_abrams_LoaderPintle.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{656144A8B620FE9A}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{20A5C59DC6E33294}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions.emat"
+    }
+    MaterialAssignClass "{656144AE38FA9711}" {
+     SourceMaterial "m240_int"
+     AssignedMaterial "{4EE9932DE78703D7}Assets/Vehicles/Tracked/M1A1/Data/m240_int.emat"
+    }
+    MaterialAssignClass "{656144AE38FA96E5}" {
+     SourceMaterial "m240_spadegrip"
+     AssignedMaterial "{1352167E62F6EBA3}Assets/Vehicles/Tracked/M1A1/Data/m240_spadegrip.emat"
+    }
+    MaterialAssignClass "{656144AE38FA96F9}" {
+     SourceMaterial "m240_1"
+     AssignedMaterial "{DC0EEA421D6BF9AC}Assets/Vehicles/Tracked/M1A1/Data/m240_1.emat"
+    }
+    MaterialAssignClass "{656144AE38FA96FD}" {
+     SourceMaterial "m240_2"
+     AssignedMaterial "{82E6C301A2E677A3}Assets/Vehicles/Tracked/M1A1/Data/m240_2.emat"
+    }
+   }
+   MeshParams {
+    MeshParam LoaderTurretPitch {
+    }
+    MeshParam LoaderTurretYaw {
+    }
+    MeshParam M240D {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_LoaderTurretPitch {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_LoaderTurretYaw {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Base {
+     LayerPreset "WeaponFire"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{656144A8B61AD7A7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{656144A8B61AE700}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{656144A8B61AE606}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{656144A8B61AF992}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{656144A8B61AF91C}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{656144A8B61AF8A5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

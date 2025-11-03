@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 5
+ ApplyAlbedoToEmissive 1
+ BCRMap "{B1F5D25766BE057C}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_BCR.edds"
+ NMOMap "{892D69C5BFC957E2}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_NMO.edds"
+}

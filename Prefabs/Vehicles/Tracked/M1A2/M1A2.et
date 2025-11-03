@@ -1,0 +1,96 @@
+Tank : "{B47B16E8DB493898}Prefabs/Vehicles/Tracked/M1A1/M1A1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{C18608A6EA32B935}Assets/Vehicles/Tracked/M1A1/m1a2_abrams.xob"
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 61700
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Abrams-EditableEntity_M1A2_Name"
+    m_Image "{F9083BEE478F4EA5}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A1/M1A2Olive.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 4500
+     }
+     SCR_EntityBudgetValue "{60F4A0A5492B7F0A}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E38B84FCEFF0E6D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{620B03355DC4D036}" {
+     SlotTemplate InventoryStorageSlot "{620B03355E01C6DE}" {
+      Enabled 0
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{6548D63261C1014A}" {
+     SlotTemplate InventoryStorageSlot "{620B03355E01C6DE}" {
+      Enabled 0
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     ColliderNames {
+      "UTM_A2Hull"
+     }
+     "Incendiary multiplier" 0.14
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{5E38B84FCEFFD739}" {
+    Aerodynamics Aerodynamics "{5E38B84FCEFFD727}" {
+     ReferenceArea 7.9
+     DragCoefficient 0.73
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{CAED1215E09CC122}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret_Olive.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6548E6E985DA2067}" {
+     ContextName "CROWSRearm"
+     Position PointInfo "{6548E6E985DA23C0}" {
+      PivotID "v_turret_01"
+      Offset 0.8115 1.4005 0.2997
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    WCS_RearmVehicleAtRepairStationAction "{633A42B167E83124}" {
+     ParentContextList {
+     }
+     UIInfo SCR_ActionUIInfo "{6548D63332F68349}" {
+     }
+     m_aRearmData {
+      WCS_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
+       maxAmount 3
+       unitSupplyCost 20
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 95.269 1 1248.898
+}

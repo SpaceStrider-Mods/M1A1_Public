@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B9AD45B3949B359}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_SEP_CommandersCupula_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

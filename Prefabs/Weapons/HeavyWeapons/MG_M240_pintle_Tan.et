@@ -1,0 +1,20 @@
+GenericEntity : "{2FE1AA46BCB6457D}Prefabs/Weapons/HeavyWeapons/MG_M240_pintle.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{656E2334D28252D7}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{2808A996756DD533}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{656144AF9D771DAC}" {
+   Slots {
+    EntitySlotInfo Armor {
+     Prefab "{5F5DDA9AD3AC9F9E}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_Commander_Pintle_Shield_Tan.et"
+    }
+   }
+  }
+ }
+}

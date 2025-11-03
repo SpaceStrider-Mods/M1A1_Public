@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B665E4F9C6F7D9E2}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

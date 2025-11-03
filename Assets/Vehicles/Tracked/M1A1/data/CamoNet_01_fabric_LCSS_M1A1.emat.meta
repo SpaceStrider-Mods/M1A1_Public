@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{662577BC82798311}Assets/Structures/Military/CamoNets/Data/CamoNet_01_fabric_LCSS_M1A1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

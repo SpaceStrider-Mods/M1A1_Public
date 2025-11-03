@@ -1,0 +1,37 @@
+MatPBRMulti : "{0297528F2283D0F3}Assets/Vehicles/Tracked/M1A1/data/Clearcoat.emat" {
+ GlobalMCRMode Multiply
+ MaskMap "{F37751B9D37427B3}Assets/Vehicles/Tracked/M1A1/data/Textures/Clearcoat_GLOBAL_MASK_MERDC.edds"
+ Enabled_4 1
+ Color_4 0.014 0.014 0.014 1
+ BCR_4 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_4 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_4 1.618
+ MaskOffset_4 0.104
+ Mask_4 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ Roughness_4 2
+ Color_3 0.105 0.091 0.077 1
+ BCR_3 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ MaskSharpness_3 1.813
+ MaskOffset_3 0.118
+ Mask_3 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ MaskUVScale_3 1
+ Roughness_3 2
+ Metalness_3 0.5
+ Color_2 0.038 0.047 0.034 1
+ BCR_2 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ MaskSharpness_2 3.662
+ MaskOffset_2 0.132
+ Mask_2 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ MaskUVScale_2 1
+ UVTransform_2 MatUVTransform "{606EA565C73F613B}" {
+  TilingU 1
+  TilingV 1
+ }
+ DetNormal_2 1
+ Roughness_2 2.447
+ Metalness_2 0
+ Color_1 0.063 0.049 0.037 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ DetNormal_1 1
+ Roughness_1 2
+}

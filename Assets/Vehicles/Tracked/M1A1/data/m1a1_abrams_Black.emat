@@ -1,0 +1,15 @@
+MatPBRMulti : "{E5394497781AECA3}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams.emat" {
+ MudOpacity 0.701
+ DirtOpacity 0.076
+ Color_3 0.067 0.067 0.067 1
+ MaskSharpness_3 6
+ MaskOffset_3 0.2
+ Mask_3 "{AF3EED70E19D46AB}Assets/_SharedData/DetailMask/ST_Scratches_02_MASK1.edds"
+ DetNormal_3 2
+ Roughness_3 1.1
+ Metalness_3 5
+ Color_2 0 0 0 1
+ MaskSharpness_2 1
+ Roughness_2 1.6
+ Color_1 0.06 0.06 0.06 1
+}

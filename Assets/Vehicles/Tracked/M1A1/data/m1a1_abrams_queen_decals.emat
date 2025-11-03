@@ -1,0 +1,3 @@
+MatPBRDecal : "{C8309C19AF8E9580}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_decals.emat" {
+ OpacityMap "{0BA741CADBBD1409}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_decals_queen_A.edds"
+}

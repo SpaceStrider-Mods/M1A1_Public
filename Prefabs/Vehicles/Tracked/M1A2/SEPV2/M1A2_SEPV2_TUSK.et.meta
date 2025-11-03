@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A78011B8CFEAC001}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TUSK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
