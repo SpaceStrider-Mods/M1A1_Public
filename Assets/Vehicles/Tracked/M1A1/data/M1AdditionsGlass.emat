@@ -1,0 +1,8 @@
+MatPBRBasicGlass {
+ Color 0.063 0.072 0.063 1
+ AlphaMul 0.8
+ GlobalMapsUVTransform MatUVTransform "{654712A0457223EB}" {
+  TilingU 3
+  TilingV 3
+ }
+}

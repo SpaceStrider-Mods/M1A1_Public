@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B21B803A22ED33F7}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention_MERDC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

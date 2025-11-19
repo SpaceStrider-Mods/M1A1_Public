@@ -1,0 +1,10 @@
+MatPBRMulti : "{E5394497781AECA3}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams.emat" {
+ MudColor 0.184 0.16 0.128 1
+ MudNMOMap "{E47E15E1FA97F658}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_02_NMO.edds"
+ MudMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ MaskSharpness_3 1
+ MaskOffset_3 0.023
+ Color_2 0.184 0.144 0.095 1
+ MaskOffset_2 0.3
+ Color_1 0.06 0.053 0.04 1
+}

@@ -1,0 +1,17 @@
+Turret : "{BC55E9E794C93DF0}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Tusk_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo ARAT {
+     PivotID "v_turret_01"
+     Enabled 1
+     Prefab "{4FCC17FC3DE01EF6}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_Turret_TuskSupports.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 2.98 18.203 13.186
+}

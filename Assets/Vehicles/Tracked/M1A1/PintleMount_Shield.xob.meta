@@ -1,0 +1,68 @@
+MetaFileClass {
+ Name "{2ACB1FB4E26D3457}Assets/Vehicles/Tracked/M1A1/PintleMount_Shield.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{654B48678C2BBBCD}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{20A5C59DC6E33294}Assets/Vehicles/Tracked/M1A1/data/M1A2Additions.emat"
+    }
+    MaterialAssignClass "{654B48678C2BBBD4}" {
+     SourceMaterial "M1AdditionsGlass"
+     AssignedMaterial "{5BC6B73533E5536E}Assets/Vehicles/Tracked/M1A1/data/M1AdditionsGlass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam LoaderTurretShield {
+    }
+    MeshParam LoaderTurretShieldGlass {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_LoaderTurretShield {
+     SurfaceProperties {
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_LoaderTurretShieldGlass_01 {
+     SurfaceProperties {
+      "{298A016BA1025E17}Common/Materials/Game/glass_armored.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_LoaderTurretShieldGlass_02 {
+     SurfaceProperties {
+      "{298A016BA1025E17}Common/Materials/Game/glass_armored.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{654B48675E67A5CF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{654B48675E67A52C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{654B48675E67A517}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{654B48675E67A4C7}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{654B48675E67A4B1}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{654B48675E67A46C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

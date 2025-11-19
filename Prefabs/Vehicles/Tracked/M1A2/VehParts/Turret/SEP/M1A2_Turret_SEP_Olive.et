@@ -1,0 +1,15 @@
+Turret : "{7212F7D48BAD7757}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEP/M1A2_Turret_SEP.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader : "{BF269FD613320BD2}Prefabs/Vehicles/Tracked/M1A1/Configs/CargoCompartment_M1A1_Loader.conf" {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_Loader_idle"
+     }
+    }
+   }
+  }
+ }
+ coords 128.519 1 1276.472
+}

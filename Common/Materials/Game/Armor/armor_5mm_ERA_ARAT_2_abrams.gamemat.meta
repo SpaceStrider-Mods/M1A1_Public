@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3579B7C6AB53F9B8}Common/Materials/Game/Armor/armor_5mm_ERA_ARAT_2.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

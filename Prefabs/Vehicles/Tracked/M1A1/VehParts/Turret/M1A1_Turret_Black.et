@@ -1,0 +1,34 @@
+Turret : "{C06BC8C9F56F0AA1}Prefabs/Vehicles/Tracked/M1A1/VehParts/Turret/M1A1_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5D3ABADF7CBFD15A}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{69CC25F19FDA2470}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Black.emat"
+    }
+    MaterialAssignClass "{5D3ABADF7CBFD2A9}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{EAA77589A0F7EF72}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_betty_decals.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader {
+    }
+   }
+  }
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Prefab "{10AD983BD6F96864}Prefabs/Vehicles/Tracked/M1A1/VehParts/CommanderTurret/M1A1_Commander_Turret_Black.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{E91AF484F009BEB5}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A1_Black.et"
+  }
+ }
+ coords 113.346 1 1248.373
+}

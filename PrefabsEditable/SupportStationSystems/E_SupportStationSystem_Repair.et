@@ -1,0 +1,32 @@
+GenericEntity : "{1D7174C97DF571DC}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Base.et" {
+ ID "5B2AD5B9801EB74E"
+ components {
+  SCR_ArsenalComponent "{62E49621E34C5C95}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{62E496210FD844DE}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{65557194B0D5C239}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 135
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{3DC6100BDB5AF996}Prefabs/Weapons/Magazines/Canisters_120_M256_APFSDS_M829.et"
+     }
+     SCR_ArsenalItemStandalone "{65557194DCAA7324}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 150
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{519224EB679E76B8}Prefabs/Weapons/Magazines/Canisters_120_M256_APFSDS_M829A2.et"
+     }
+     SCR_ArsenalItemStandalone "{65557194D4807968}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 120
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{C3E53BBF48FA6443}Prefabs/Weapons/Magazines/Canisters_120_M256_HEATFS_M830.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4216E4EFA2AFC151}Prefabs/Vehicles/Tracked/M1A1/Configs/AbramsFinalDrive.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,56 @@
+GenericEntity : "{2BAC695816860421}Prefabs/Weapons/Core/Armament_Dispenser_Smoke.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{8348F082B0D08521}Assets/Weapons/Countermeasures/SmokeLauncher_Triple/SmokeLauncher_Triple_Base.xob"
+   Materials {
+    MaterialAssignClass "{62EC37E9CA2BBD15}" {
+     SourceMaterial "SmokeLauncher_Triple_Base"
+     AssignedMaterial "{77BA67D99372E2A6}Assets/Vehicles/Generic/Triplex/TriplexPlaceholder/Data/triplex_hidden.emat"
+    }
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{62DB0A13234C2E8C}" {
+   m_Projectile "{3D1CBB05025B08FA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_Abrams.et"
+   m_IdlePosition PointInfo "{62EC37E968F431B9}" {
+   }
+   m_FirePosition PointInfo "{62EC37E968F43188}" {
+    Offset 0 0.3 0.5
+    Angles 15 -10 0
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 2
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{62EC37E968F4316B}" {
+   m_Projectile "{3D1CBB05025B08FA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_Abrams.et"
+   m_IdlePosition PointInfo "{62EC37E968F4316C}" {
+   }
+   m_FirePosition PointInfo "{62EC37E968F4316E}" {
+    Offset 0 0.3 0.5
+    Angles 15 10 0
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 2
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 2
+  }
+  WCS_Armament_SmokeDispenserComponent "{62EC37E968F43186}" {
+   m_Projectile "{3D1CBB05025B08FA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_Abrams.et"
+   m_IdlePosition PointInfo "{62EC37E968F4319C}" {
+   }
+   m_FirePosition PointInfo "{62EC37E968F43190}" {
+    Offset 0 0.3 0.5
+    Angles 15 0 0
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 2
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 1
+  }
+ }
+ coords 55.493 1 1217.212
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{A81F4C8D479E57C7}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2Turret/ARAT2_Turret.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6070695F24CA1356}" {
+     SourceMaterial "Clearcoat"
+     AssignedMaterial "{9420C49457C2DFCD}Assets/Vehicles/Tracked/M1A1/data/Clearcoat_Black.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1408 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 204813
+   name "Signal Occlusion"
+   tl -768 1408
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+   inputsport {
+    45 55 57 94 103 111
+   }
+   outputsport {
+    74
+   }
+   inputvalues {
+    0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 10000 10000 1
+   }
+   path "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+  }
+  SignalClass {
+   id 215053
+   name "Signal Fire"
+   tl -1536 2304
+   res "{4A93A97CB9935445}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fire.sig"
+   inputsport {
+    1 21 40
+   }
+   outputsport {
+    2 32 44 62 64
+   }
+   inputvalues {
+    10 0 1
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 4 4
+   }
+   path "{4A93A97CB9935445}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fire.sig"
+  }
+  SignalClass {
+   id 269325
+   name "Simple Distance Blender"
+   tl -1552 3360
+   res "{01EC2A86ABDD725A}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender2Steps_2.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 270348
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    4 7
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{01EC2A86ABDD725A}Sounds/_SharedData/Signals/SimpleHelpers/SimpleDistanceBlender2Steps_2.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 180233
+   name "SOUND_VEHICLE_STEAM_LP"
+   version 5
+   tl -512 1792
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 176146
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 38923
+   outStatePort 70663
+   transformation Offset
+   offsetName "Engine"
+  }
+  SoundClass {
+   id 268297
+   name "SOUND_VEHICLE_AMMORACKFIRE_LP"
+   version 5
+   tl -528 3328
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 64
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 286738
+       port 65
+      }
+      ConnectionClass connection {
+       id 288786
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 38923
+   outStatePort 70663
+   transformation Offset
+   offsetName "Supplies"
+  }
+  SoundClass {
+   id 281609
+   name "SOUND_VEHICLE_FUELTANKFIRE_LP"
+   version 5
+   tl -512 2560
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 44
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 280594
+       port 65
+      }
+      ConnectionClass connection {
+       id 301074
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 38923
+   outStatePort 70663
+   transformation Offset
+   offsetName "FuelTank"
+  }
+  SoundClass {
+   id 307209
+   name "SOUND_VEHICLE_ENGINEFIRE_LP"
+   version 5
+   tl -512 2048
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 32
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 308242
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 38923
+   outStatePort 70663
+   transformation Offset
+   offsetName "Engine"
+  }
+ }
+ switches {
+  SwitchClass {
+   id 302113
+   name "Switch CookOff"
+   version 5
+   tl -1024 3200
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 64
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 147509555
+     links {
+      ConnectionClass connection {
+       id 262148
+       port 65
+      }
+      ConnectionClass connection {
+       id 260100
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 161213437
+     links {
+      ConnectionClass connection {
+       id 257028
+       port 65
+      }
+      ConnectionClass connection {
+       id 258052
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1239021137
+     links {
+      ConnectionClass connection {
+       id 259076
+       port 65
+      }
+      ConnectionClass connection {
+       id 261124
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 200
+   ports {
+    PortClass Small {
+     min 1
+     max 2
+     default 1
+    }
+    PortClass Medium {
+     min 2
+     max 3
+    }
+    PortClass Large {
+     min 3
+     max 100
+    }
+   }
+  }
+  SwitchClass {
+   id 303137
+   name "Switch Ammorack Fire"
+   version 5
+   tl -1024 3712
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 64
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 147509555
+     links {
+      ConnectionClass connection {
+       id 271364
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 161213437
+     links {
+      ConnectionClass connection {
+       id 275460
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1239021137
+     links {
+      ConnectionClass connection {
+       id 274436
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 200
+   ports {
+    PortClass Small {
+     min 1
+     max 2
+     default 1
+    }
+    PortClass Medium {
+     min 2
+     max 3
+    }
+    PortClass Large {
+     min 3
+     max 100
+    }
+   }
+  }
+  SwitchClass {
+   id 304161
+   name "Switch Fire"
+   version 5
+   tl -1024 2304
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 44
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 147509555
+     links {
+      ConnectionClass connection {
+       id 278532
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 161213437
+     links {
+      ConnectionClass connection {
+       id 279556
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1239021137
+     links {
+      ConnectionClass connection {
+       id 277508
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 200
+   ports {
+    PortClass Small {
+     min 1
+     max 2
+     default 1
+    }
+    PortClass Medium {
+     min 2
+     max 3
+    }
+    PortClass Large {
+     min 3
+     max 100
+    }
+   }
+  }
+  SwitchClass {
+   id 305185
+   name "Switch Metal Stress"
+   version 5
+   tl -1024 2816
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 44
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 147509555
+     links {
+      ConnectionClass connection {
+       id 297988
+       port 65
+      }
+      ConnectionClass connection {
+       id 299012
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 161213437
+     links {
+      ConnectionClass connection {
+       id 299012
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 200
+   ports {
+    PortClass Small {
+     min 1
+     max 3
+     default 1
+    }
+    PortClass Large {
+     min 3
+     max 100
+    }
+   }
+  }
+  SwitchClass {
+   id 309281
+   name "Switch Steam"
+   version 5
+   tl -1024 1792
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 215053
+       port 62
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3682874
+     links {
+      ConnectionClass connection {
+       id 173060
+       port 65
+      }
+      ConnectionClass connection {
+       id 311300
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 4356277
+     links {
+      ConnectionClass connection {
+       id 175108
+       port 65
+      }
+      ConnectionClass connection {
+       id 312324
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 200
+   ports {
+    PortClass Slow {
+     max 20
+     default 1
+    }
+    PortClass Fast {
+     min 20
+     max 100
+    }
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 38923
+   name "OutputState"
+   version 4
+   tl -256 2304
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 70663
+     links {
+      ConnectionClass connection {
+       id 268297
+       port 65
+      }
+      ConnectionClass connection {
+       id 281609
+       port 65
+      }
+      ConnectionClass connection {
+       id 180233
+       port 65
+      }
+      ConnectionClass connection {
+       id 307209
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2048 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 270348
+   name "Constant 109"
+   version 5
+   tl -1744 3376
+   "Constant values" {
+    IOPConstantsValueClass CLOSE_MAX {
+     Key "CLOSE_MAX"
+     Value 100
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 176146
+   name "Shader Steam"
+   version 5
+   tl -768 1792
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 179228
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 181267
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 309281
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+  ShaderClass {
+   id 280594
+   name "VehicleFire Small Shader"
+   version 5
+   tl -768 2304
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 266268
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 181267
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 304161
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+  ShaderClass {
+   id 286738
+   name "Shader CookOff"
+   version 5
+   tl -768 3200
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 266268
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 267283
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 302113
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 288786
+   name "AmmorackFire Small Shader"
+   version 5
+   tl -768 3712
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 266268
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 273427
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 303137
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 301074
+   name "Shader Metal Stress"
+   version 5
+   tl -768 2816
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 179228
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 181267
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 305185
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+  ShaderClass {
+   id 308242
+   name "VehicleFire Small Shader"
+   version 5
+   tl -768 2048
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 266268
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 181267
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 177173
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 279556
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{9F8145144171C64B}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-40LUFS_to_-35LUFS.conf" {
+   id 181267
+   version 5
+   tl -768 1328
+   parent "{9F8145144171C64B}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-40LUFS_to_-35LUFS.conf"
+  }
+  AmplitudeClass : "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf" {
+   id 267283
+   version 5
+   tl -768 3120
+   parent "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-25LUFS_to_-20LUFS.conf"
+  }
+  AmplitudeClass : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-30LUFS_to_-25LUFS.conf" {
+   id 273427
+   version 5
+   tl -768 3632
+   parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-30LUFS_to_-25LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 177173
+   version 5
+   tl -768 1648
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 204813
+       port 74
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 173060
+   name "Steam Fast"
+   version 7
+   tl -1296 1872
+   Volume -10
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 2500
+   "Random start offset" 1
+   "Fade in time" 500
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{55306D4447794E06}Sounds/Vehicles/_SharedData/Destruction/Samples/Vehicle_Steam_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 175108
+   name "Steam"
+   version 7
+   tl -1296 1792
+   Volume -18
+   Pitch -4
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 2500
+   "Random start offset" 1
+   "Fade in time" 500
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8ABD8C957FA4164F}Sounds/Vehicles/_SharedData/Destruction/Samples/Vehicle_Steam_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 257028
+   name "CookOff Small Close"
+   version 7
+   tl -1280 3072
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 4
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   "Fade in time" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{37182D94B8CC2DC0}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Close_Small.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 258052
+   name "CookOff Small Far"
+   version 7
+   tl -1280 3344
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{F86D6FA30E06CBE1}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Far_Small.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 259076
+   name "CookOff Medium Close"
+   version 7
+   tl -1280 3152
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 4
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume 2.5
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   "Fade in time" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{A0E3F76B2BCBFB32}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Close_Medium.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 260100
+   name "CookOff Large Close"
+   version 7
+   tl -1280 3232
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 4
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume 4
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   "Fade in time" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{C56620AC95B656F2}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Close_Large.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 261124
+   name "CookOff Medium Far"
+   version 7
+   tl -1280 3424
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume 2.5
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   "Fade in time" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{E51AAFFB9E8AE104}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Far_Medium.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 262148
+   name "CookOff Large Far"
+   version 7
+   tl -1280 3504
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 269325
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume 4
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 400
+   "Random start offset" 1
+   "Fade in time" 150
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0A13629B237CB0D3}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_CookOff_Far_Large.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 271364
+   name "Ammorack Fire Large"
+   version 7
+   tl -1280 3872
+   Volume 1
+   "Volume variance" 2
+   "Pitch variance" 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{ACE1F719D432785A}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_Fire_Large.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 274436
+   name "Ammorack Fire Medium"
+   version 7
+   tl -1280 3792
+   Volume -3
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{E1DD9CA1D12596EE}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_Fire_Medium.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 275460
+   name "Ammorack Fire Small"
+   version 7
+   tl -1280 3712
+   Volume -6
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{5E9FFA21F9480368}Sounds/Particles/Logistics/Fire/Ammunition_Fire/Samples/Particles_Ammunition_Fire_Small.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 277508
+   name "Vehicle Fire Medium"
+   version 7
+   tl -1280 2384
+   Volume -4
+   "Volume variance" 2
+   Pitch 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D3B941A9587B584B}Sounds/Particles/Vehicle/Samples/Particles_Vehicle_Fire_Medium.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 278532
+   name "Vehicle Fire Large"
+   version 7
+   tl -1280 2464
+   Volume 1
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{62A1D84A116D6B99}Sounds/Particles/Vehicle/Samples/Particles_Vehicle_Fire_Large.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 279556
+   name "Vehicle Fire Small"
+   version 7
+   tl -1280 2304
+   Volume -8
+   "Volume variance" 2
+   Pitch 1.75
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{90DFD5723C1710AB}Sounds/Particles/Vehicle/Samples/Particles_Vehicle_Fire_Small.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 297988
+   name "Vehicle Fire MetalStress"
+   version 7
+   tl -1280 2896
+   Volume -19
+   "Volume variance" 2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{DB760FAF33E90F27}Sounds/Particles/Vehicle/Samples/Particles_Vehicle_Fire_MetalStress.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 299012
+   name "Vehicle Fire MetalStress_AddHeavyLayer"
+   version 7
+   tl -1280 2816
+   Volume -18
+   "Volume variance" 2
+   Pitch -2
+   "Pitch variance" 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1200
+   "Random start offset" 1
+   "Fade in time" 250
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{DB760FAF33E90F27}Sounds/Particles/Vehicle/Samples/Particles_Vehicle_Fire_MetalStress.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 311300
+   name "Alarm Fast"
+   version 7
+   tl -1290.843 2043.71
+   Volume -15
+   Pitch 1.5
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{7C3B09080D89103E}Sounds/Vehicles/Tracked/M1A1/Samples/Abrams_EMERGENCY.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 312324
+   name "Alarm Slow"
+   version 7
+   tl -1292.019 1971.891
+   Volume -15
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{7C3B09080D89103E}Sounds/Vehicles/Tracked/M1A1/Samples/Abrams_EMERGENCY.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 179228
+   name "Spatiality 3D"
+   version 5
+   tl -768 1248
+   spatialFactor 1
+  }
+  SpatialityClass {
+   id 266268
+   name "Spatiality"
+   version 5
+   tl -768 1968
+   SpatialFactorSource Curve
+   SFCurve {
+    CurvePoint "1" {
+    }
+    CurvePoint "2" {
+     X 1.02804
+     Shape Exponential
+     Modifier 0.75
+    }
+    CurvePoint "3" {
+     X 6
+     Y 1
+    }
+   }
+  }
+ }
+ groups {
+  GroupClass {
+   id 276483
+   name "Ammunition Rack / Supplies Fire and CookOff"
+   children {
+    271364 272402 259076 275460 273427 262148 274436 257028 264199 287762 261124 258052 265234 267283 260100 268297 263175 283657 284681 285714 286738 288786 302113 303137
+   }
+   parent -1
+   Color 1 0.639 0.392 0.329
+  }
+  GroupClass {
+   id 306179
+   name "Supplies FIre"
+   children {
+    305185 280594 297988 281609 301074 299012 277508 304161 279556 278532
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 310275
+   name "Engine Fire"
+   children {
+    308242 307209 266268 180233 309281 176146 175108 173060
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+ }
+ version 1
+ listenerWindowModel "{5BB72C16BA48410B}Assets/Vehicles/Wheeled/M998/M998_Base.xob"
+}

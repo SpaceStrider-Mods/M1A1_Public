@@ -1,0 +1,97 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass "{66DC09E31970D2E5}" {
+   id 1
+   name "rotation5"
+   tl -18.929 -19.405
+   children {
+    2
+   }
+  }
+  IOPItemInputClass "{66DC09E31970D2D0}" {
+   id 3
+   name "rotation14"
+   tl -21.667 95.833
+   children {
+    4
+   }
+  }
+  IOPItemInputClass "{66DC09E31970D2AC}" {
+   id 5
+   name "suspension"
+   tl -26.667 216.667
+   children {
+    6
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass "{66DC09E31970D2B0}" {
+   id 2
+   name "LeftWheels"
+   tl 203.407 -20.659
+   input 1
+  }
+  IOPItemOutputClass "{66DC09E31970D281}" {
+   id 4
+   name "RightWheels"
+   tl 202.5 94.167
+   input 3
+  }
+  IOPItemOutputClass "{66DC09E31970D286}" {
+   id 6
+   name "suspension"
+   tl 201.667 216.667
+   input 5
+  }
+ }
+ compiled IOPCompiledClass "{66DC09E31970D268}" {
+  visited {
+   261
+   262
+   133
+   134
+   5
+   6
+  }
+  ins {
+   IOPCompiledIn "{66DC09E31970D277}" {
+    data {
+     1
+     2
+    }
+   }
+   IOPCompiledIn "{66DC09E31970D24E}" {
+    data {
+     1
+     65538
+    }
+   }
+   IOPCompiledIn "{66DC09E31970D243}" {
+    data {
+     1
+     131074
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut "{66DC09E31970D25F}" {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut "{66DC09E31970D257}" {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut "{66DC09E31970D228}" {
+    data {
+     0
+    }
+   }
+  }
+  processed 6
+  version 2
+ }
+}

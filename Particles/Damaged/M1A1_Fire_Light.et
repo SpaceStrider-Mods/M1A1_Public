@@ -1,0 +1,9 @@
+LightEntity {
+ ID "6595705C1BD75CF5"
+ coords 1262.049 39.9 2160.83
+ Color 0.7605 0.0976 0.0152 1
+ LV 4
+ Radius 5
+ Visualization Disabled
+ LensFlareType Disabled
+}

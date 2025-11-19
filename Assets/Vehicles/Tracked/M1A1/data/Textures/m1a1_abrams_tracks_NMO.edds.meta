@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B8B598CA62C48EFA}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_tracks_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

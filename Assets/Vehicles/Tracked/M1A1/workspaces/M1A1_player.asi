@@ -1,0 +1,472 @@
+AnimSetInstanceSource "{6056956E78CDF1B6}" {
+ Template "{968D52F76BB570C9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25.ast"
+ Lines {
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Brake" {
+   Resource "{25AEC214864F5876}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_brake.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Clutch" {
+   Resource "{B041B12C116ECBD9}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_clutch.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
+   Resource "{F569810FD872BCB2}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{A251F656851D78BC}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_getin.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{6AC7E9376C0491EB}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeIn" {
+   Resource "{D3B05895D872DCF0}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_handbrake_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeLoop" {
+   Resource "{723C5E0FB8413F79}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_handbrake_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeoff" {
+   Resource "{AB6385432CB1BD77}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_handbrake_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOut" {
+   Resource "{B9DB4094F1044466}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_handbrake_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HandBrakeOn" {
+   Resource "{6E600A12A769C0EE}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_handbrake_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{8AC3E37F2F2912A4}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_horn_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{1DF8D297EC463942}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_horn_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{A6CEFDE865285B8B}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOn" {
+   Resource "{AFE3477A871FFF1E}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_light_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{41D38E11D5AE3019}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_light_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{D9752DC85DCDF28B}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_shift_gear.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Throttle" {
+   Resource "{DEB1DA1C75EE25A5}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_throttle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
+   Resource "{96F72E7FCC903A6C}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turn_on_engine_off.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIn" {
+   Resource "{7228BB6A58089D8E}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousIdle" {
+   Resource "{01B31CAA54EBE145}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.UnconsciousOut" {
+   Resource "{59484AC07E5E73E6}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
+   Resource "{4C0390CFAC343852}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
+   Resource "{4C0390CFAC343852}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle01" {
+   Resource "{003F7DB00A7ADC4D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL01_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle01" {
+   Resource "{CD8B882F51A1FF08}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR01_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Idle01" {
+   Resource "{2ED3BA131B1CFD68}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchIn" {
+   Resource "{FDCB683CABC84247}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchIn" {
+   Resource "{FDCB683CABC84247}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SwitchOut" {
+   Resource "{502571002B4AA0FF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SwitchOut" {
+   Resource "{502571002B4AA0FF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIn" {
+   Resource "{7365D0C23E6F582A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIn" {
+   Resource "{7365D0C23E6F582A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousIdle" {
+   Resource "{86BE199793801C91}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousIdle" {
+   Resource "{86BE199793801C91}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.UnconsciousOut" {
+   Resource "{56D3034DB071E175}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.UnconsciousOut" {
+   Resource "{56D3034DB071E175}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passenger_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out_Back" {
+   Resource "{B4CFFD2F8D659157}Assets/Vehicles/Wheeled/UAZ469/anm/Test/p_closeDoor_out_back_low_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out_Back" {
+   Resource "{45C4C57BFE3AA4BB}Assets/Vehicles/Wheeled/UAZ469/anm/Test/p_closeDoor_out_back_low_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Idle01" {
+   Resource "{AC6C7E06027BD36F}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Idle01" {
+   Resource "{B0AA715CA6058DEA}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_idle.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{099B8DC1AD72ED32}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_steering_poses_extreme.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{84C42CCEE783A436}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_steering_poses_main.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartIn" {
+   Resource "{156DE17CA35835A3}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turn_on_engine_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartLoop" {
+   Resource "{D575A0CB93C9A9BA}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turn_on_engine_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{91B8E5DF1EA931FA}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turn_on_engine_out_off.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out" {
+   Resource "{AA4D2248CECA8516}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_close_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_In" {
+   Resource "{DB1C52C631EBA957}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_close_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_Out" {
+   Resource "{82A8B7A0C4B6C243}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_open_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_OpenDoor_In" {
+   Resource "{F3F9C72E3B97EE02}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_open_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out" {
+   Resource "{FC9AEA45BD6FFF40}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_close_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_In" {
+   Resource "{8DCB9ACB424ED301}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_close_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_Out" {
+   Resource "{6590C73A9A8786D0}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_open_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_OpenDoor_In" {
+   Resource "{14C1B7B465A6AA91}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_open_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_Out" {
+   Resource "{4DD6D784E35BC3F9}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_close_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_In" {
+   Resource "{3C87A70A1C7AEFB8}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_close_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_OpenDoor_Out" {
+   Resource "{9229112DF70BB280}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_open_hatch_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_OpenDoor_In" {
+   Resource "{E37861A3082A9EC1}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_open_hatch_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_Out" {
+   Resource "{C3267FBC53F60E8E}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_close_door_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_CloseDoor_In" {
+   Resource "{B2770F32ACD722CF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_close_door_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_Out" {
+   Resource "{72672F34DB23F9F0}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_open_door_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_OpenDoor_In" {
+   Resource "{03365FBA2402D5B1}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_open_door_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_Out" {
+   Resource "{34CD2EE1F77EC265}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_close_door_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_CloseDoor_In" {
+   Resource "{459C5E6F085FEE24}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_close_door_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_Out" {
+   Resource "{F0E3DF4391A99725}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_open_door_exterior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_OpenDoor_In" {
+   Resource "{81B2AFCD6E88BB64}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_open_door_interior.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_GetIn_NoDoor" {
+   Resource "{12356BFAB37F1614}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_GetIn_NoDoor" {
+   Resource "{B7C8871E7DB66F42}Assets/Vehicles/Wheeled/BRDM2/anm/p_BRDM2_codriver_getIn_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_GetIn_NoDoor" {
+   Resource "{EF80C77E0CED464D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_GetIn_NoDoor" {
+   Resource "{150CF47DFDDD41B6}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_GetIn_NoDoor" {
+   Resource "{D8B801E2A60662F3}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_get_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_GetOut_NoDoor" {
+   Resource "{52E729C1C27AC317}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_GetOut_NoDoor" {
+   Resource "{7DD5574E3CBDDAC0}Assets/Vehicles/Wheeled/BRDM2/anm/p_BRDM2_codriver_getout_noDoor.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_GetOut_NoDoor" {
+   Resource "{F856888FCD7B4236}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.01_GetOut_NoDoor" {
+   Resource "{E55AEAF69451D67D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.01_GetOut_NoDoor" {
+   Resource "{E4F5D95C6301C56D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR_get_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.01_CloseDoor_Out_Back" {
+   Resource "{B4CFFD2F8D659157}Assets/Vehicles/Wheeled/UAZ469/anm/Test/p_closeDoor_out_back_low_R.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.01_CloseDoor_Out_Back" {
+   Resource "{45C4C57BFE3AA4BB}Assets/Vehicles/Wheeled/UAZ469/anm/Test/p_closeDoor_out_back_low_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.01_CloseDoor_Out_Back" {
+   Resource "{45C4C57BFE3AA4BB}Assets/Vehicles/Wheeled/UAZ469/anm/Test/p_closeDoor_out_back_low_L.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.SwitchIn" {
+   Resource "{F99008613E272B07}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.SwitchOut" {
+   Resource "{42764AD0CA610C20}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchIn" {
+   Resource "{DF8634D59B80CE38}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchOut" {
+   Resource "{54E2AA1811D1B907}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchIn" {
+   Resource "{F99008613E272B07}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_Switch_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SwitchOut" {
+   Resource "{42764AD0CA610C20}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_Switch_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle02" {
+   Resource "{40CF5C95BC665E0A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL02_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Idle03" {
+   Resource "{BECF1CD049343246}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerL03_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle02" {
+   Resource "{8D7BA90AE7BD7D4F}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR02_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Idle03" {
+   Resource "{737BE94F12EF1103}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_passengerR03_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Death" {
+   Resource "{42D13A956DC297D7}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIn" {
+   Resource "{4A49E41649AD11F3}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousIdle" {
+   Resource "{1324D029B02325A8}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.UnconsciousOut" {
+   Resource "{0036735B76755969}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_codriver_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{39B6B20191BAA259}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIn" {
+   Resource "{75A0FC2E96F00C39}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousIdle" {
+   Resource "{A8610E34E47D0ABC}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.UnconsciousOut" {
+   Resource "{5F2D4A7772B3738C}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Wobble" {
+   Resource "{2273F9A13A6A257D}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Wobble" {
+   Resource "{2273F9A13A6A257D}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.Wobble" {
+   Resource "{7FFC79A519FDE2CF}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.Wobble" {
+   Resource "{7FFC79A519FDE2CF}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Wobble" {
+   Resource "{2273F9A13A6A257D}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_wobbling.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Turnout_Death" {
+   Resource "{D19AC00AB73F527D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Turnout_UnconsciousIn" {
+   Resource "{77C23170A3495D00}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.TurnOut_UnconsciousIdle" {
+   Resource "{EA5BBE8D23C8C5EA}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.Turnout_UnconsciousOut" {
+   Resource "{B801D795983627AA}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_SteeringExtreme" {
+   Resource "{023DFF2F3023D53D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turnout_steering_poses_extreme.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_SteeringMain" {
+   Resource "{25BE409107635C6E}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_turnout_steering_poses_main.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_Aimspace" {
+   Resource "{3BA8A515B8C0E180}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_UnconsciousDeath" {
+   Resource "{9B50CA40BB549779}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_Idle" {
+   Resource "{21A5A021524420C5}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_Trans_Out" {
+   Resource "{753A827E5F79C401}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_Trans_In" {
+   Resource "{C5531ABEFB7B4B8C}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_UnconsciousIn" {
+   Resource "{3E57FD1C4C65FBE6}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.TurnOut_UnconsciousIdle" {
+   Resource "{399B303283CA581C}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_UnconsciousOut" {
+   Resource "{275E940EEB930FA8}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_Aimspace" {
+   Resource "{3BA8A515B8C0E180}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_Death" {
+   Resource "{9F373BB568567F66}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Turnout_Death" {
+   Resource "{9B50CA40BB549779}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_gunner_turnout_death.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_Idle" {
+   Resource "{21A5A021524420C5}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_idle.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_Trans_Out" {
+   Resource "{CB403DAEAC86DACF}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_Trans_In" {
+   Resource "{BDE5CF9589662737}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_out.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_UnconsciousIn" {
+   Resource "{E1B26AB46AB7AC79}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_unconscious_in.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.TurnOut_UnconsciousIdle" {
+   Resource "{B38881F3A4C52055}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_unconscious_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.Turnout_UnconsciousOut" {
+   Resource "{944F2BF1D6822E71}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_commander_turnout_unconscious_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeIn" {
+   Resource "{3647A68604499013}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_handbrake_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeLoop" {
+   Resource "{77D6D4154300FFF7}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_handbrake_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOff" {
+   Resource "{B7DB071B06C8DA07}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_handbrake_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOn" {
+   Resource "{8B97F4017B528C0D}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_handbrake_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HandBrakeOut" {
+   Resource "{A563C2CCDB7D2316}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_handbrake_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_HornIn" {
+   Resource "{3EC1189A46D93D43}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_horn_in.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.TurnOut_HornLoop" {
+   Resource "{80080223F52A28C7}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_horn_loop.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.TurnOut_HornOut" {
+   Resource "{B1BB12045755AAA8}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_horn_out.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_LightsOff" {
+   Resource "{611069B20AE9D92A}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_lights_off.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_LightsOn" {
+   Resource "{8291A942B3EBC2E1}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_lights_on.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.Turnout_ShiftGear" {
+   Resource "{20C74FCA6722855B}Assets/Vehicles/Wheeled/LAV25/anm/p_LAV25_driver_turnout_shift_gear.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
+   Resource "{718EBF2EA775222C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{B9A1B91FBECECCA2}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{E42E391B9D590B10}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{E42E391B9D590B10}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{E42E391B9D590B10}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_aimspace.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.AccelerationSpine" {
+   Resource "{B689A116D1AA0FA9}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.AccelerationSpine" {
+   Resource "{1F901E6E374D5598}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.AccelerationSpine" {
+   Resource "{9D9890375D84D11C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_acceleration_spine.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.SpineBrakeHard" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SpineBrakeHard" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SpineBrakeHard" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SpineBrakeHard" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SpineBrakeHard" {
+   Resource "{7746199D4037B65F}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_hardF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.SpineBrakeSoft" {
+   Resource "{B8F3F974880C02B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_vehicle_collision_softF.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{60569E1465FCBB78}" {
+ }
+}

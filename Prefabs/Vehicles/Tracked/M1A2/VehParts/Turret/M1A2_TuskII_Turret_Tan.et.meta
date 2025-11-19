@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9467D1815209BA3E}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_TuskII_Turret_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{646406695534E3A8}Assets/Vehicles/Tracked/M1A1/anim/v_M1A1_commander_open_hatch_out.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

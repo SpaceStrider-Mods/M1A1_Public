@@ -1,0 +1,19 @@
+GenericEntity : "{BB35A8E1403CDE4B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  RigidBody "{572AF6B736F67B4F}" {
+   Static 0
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+    }
+   }
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 1
+  }
+ }
+ coords 93.804 1 1241.447
+}

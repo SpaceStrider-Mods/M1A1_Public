@@ -1,0 +1,25 @@
+GenericEntity : "{05DC701FA2FF01C9}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersCupula.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SlotManagerComponent "{6571426AE3491DDC}" {
+   Slots {
+    EntitySlotInfo Armor_1 {
+     PivotID "v_turret_02"
+     Offset 0 -0.1397 0
+     Prefab "{953C18B659CB0604}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor.et"
+    }
+    EntitySlotInfo Armor_2 {
+     PivotID "v_turret_01"
+     Offset 0 0 0
+     Prefab "{2088E431B82D290B}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersArmor_02.et"
+    }
+    EntitySlotInfo Gun_Mount {
+     PivotID "v_turret_02"
+     Offset 0 -0.1397 0
+     Prefab "{528107DD51B5F31C}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersCupula_WeaponMount.et"
+    }
+   }
+  }
+ }
+ coords 74.293 1 1242.273
+}

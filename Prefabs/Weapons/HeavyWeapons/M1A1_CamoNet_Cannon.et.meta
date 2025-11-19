@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B9FE7BE70E0FE8E0}Prefabs/Weapons/HeavyWeapons/M1A1_CamoNet_Cannon.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

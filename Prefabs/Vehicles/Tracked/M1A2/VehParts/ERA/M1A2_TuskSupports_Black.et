@@ -1,0 +1,65 @@
+GenericEntity : "{A958A61D3FAEBC41}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6070695CA840C457}" {
+     SourceMaterial "Clearcoat"
+     AssignedMaterial "{9420C49457C2DFCD}Assets/Vehicles/Tracked/M1A1/data/Clearcoat_Black.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{60648DD0CB61EA77}" {
+   Slots {
+    RegisteringComponentSlotInfo ERA_L01 {
+     Prefab "{DC5A9D61B97A739E}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L01_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L02 {
+     Prefab "{B00EA98105BEFCB0}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L02_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L03 {
+     Prefab "{5592E578095B6BDB}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L03_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L04 {
+     Prefab "{68A6C0407C37E2EC}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L04_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L05 {
+     Prefab "{8D3A8CB970D27587}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L05_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L06 {
+     Prefab "{E16EB859CC16FAA9}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L06_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L07 {
+     Prefab "{04F2F4A0C0F36DC2}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L07_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_L08 {
+     Prefab "{9B06F22926CFE8C7}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_L08_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R01 {
+     Prefab "{132A462C69D972DE}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R01_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R02 {
+     Prefab "{7F7E72CCD51DFDF0}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R02_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R03 {
+     Prefab "{9AE23E35D9F86A9B}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R03_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R04 {
+     Prefab "{A7D61B0DAC94E3AC}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R04_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R05 {
+     Prefab "{424A57F4A07174C7}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R05_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R06 {
+     Prefab "{2E1E63141CB5FBE9}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R06_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R07 {
+     Prefab "{CB822FED10506C82}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R07_Black.et"
+    }
+    RegisteringComponentSlotInfo ERA_R08 {
+     Prefab "{54762964F66CE987}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/Black/ARAT_R08_Black.et"
+    }
+   }
+  }
+ }
+}

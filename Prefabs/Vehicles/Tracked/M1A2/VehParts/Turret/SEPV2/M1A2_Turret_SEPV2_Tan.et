@@ -1,0 +1,67 @@
+Turret : "{7212F7D48BAD7756}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/M1A2_Turret_SEPV2.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{656E2334A9377CEE}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{B6C3C5299A34D683}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Tan.emat"
+    }
+    MaterialAssignClass "{656E2334A9377C9F}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{AB64F85E018034A8}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_bulldog_decals.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader : "{BF269FD613320BD2}Prefabs/Vehicles/Tracked/M1A1/Configs/CargoCompartment_M1A1_Loader.conf" {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_Loader_idle"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Enabled 1
+     Prefab "{ADD275F8CBE28776}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/M1A2_SEPV2_CommanderTurret_Tan.et"
+    }
+    RegisteringComponentSlotInfo Commander_sight {
+     Prefab "{157A91388639BDD3}Prefabs/Vehicles/Tracked/M1A2/VehParts/CommanderSight/M1A2_CommanderSight_Tan.et"
+    }
+    RegisteringComponentSlotInfo BasketExtention {
+     Prefab "{840EC6D3791EF277}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_BasketExtention_Tan.et"
+    }
+    RegisteringComponentSlotInfo Warlock {
+     Prefab "{F36CF1EAFE8DEFEF}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_Warlock_Jammer_Tan.et"
+    }
+    RegisteringComponentSlotInfo LoaderArmor {
+     Prefab "{BD8B7F247B66E52D}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_LoaderArmor_Tan.et"
+    }
+    RegisteringComponentSlotInfo CROWS_Mount {
+     Prefab "{13EC792E5187FCCE}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_SEPV2_CROWS_Mount_Tan.et"
+    }
+    RegisteringComponentSlotInfo Loader_GunShield {
+     Prefab "{5F5DDA9AD3AC9F9E}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_Loader_Pintle_Shield_Tan.et"
+    }
+    RegisteringComponentSlotInfo SEP_CommandersCupula {
+     Prefab "{6B9AD45B3949B359}Prefabs/Vehicles/Tracked/M1A2/VehParts/A2Additions/M1A2_CommandersCupula_Tan.et"
+    }
+    RegisteringComponentSlotInfo Loader_Gun_Mount {
+     PivotID ""
+     Offset 0 0 0
+     MergePhysics 0
+     Enabled 1
+     Prefab ""
+     RegisterDamage 0
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{6FF0CE9666D7B37C}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A2_Tan.et"
+  }
+ }
+ coords 59.684 1 1243.327
+}

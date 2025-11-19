@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4D0A00B53E7CF93C}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT2/Tan/ARAT2_R03_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

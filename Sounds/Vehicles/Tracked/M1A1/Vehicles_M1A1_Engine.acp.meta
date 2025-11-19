@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{46D80CA10FF8CA06}Sounds/Vehicles/Wheeled/BTR70/Vehicles_M1A1_Engine.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

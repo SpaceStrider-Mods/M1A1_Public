@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "5D34B85F504A7C10"
+ components {
+  MeshObject "{5D34B85F504A7C67}" {
+   Object "{E90288B51C65C41B}Assets/Weapons/HeavyWeapons/M1A1Cannon/m1a1_cannon_Wrap.xob"
+  }
+  RigidBody "{5D34B85F504A7C7A}" {
+   Enabled 0
+   Mass 100
+   ModelGeometry 1
+  }
+  RplComponent "{5D34B85F504A7C76}" {
+  }
+  Hierarchy "{5D34B85F504A7C60}" {
+  }
+ }
+}

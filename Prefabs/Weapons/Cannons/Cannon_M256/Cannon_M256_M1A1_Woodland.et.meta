@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4E203F9412F00630}Prefabs/Weapons/Cannons/Cannon_M256/Cannon_M256_M1A1_Woodland.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

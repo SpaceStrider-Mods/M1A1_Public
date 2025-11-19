@@ -1,0 +1,35 @@
+Tank : "{DF904EC4C4A8CB7D}Prefabs/Vehicles/Tracked/M1A2/M1A2_TUSKII.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64F349F8C7361934}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{69CC25F19FDA2470}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Black.emat"
+    }
+    MaterialAssignClass "{64F349F8C7361919}" {
+     SourceMaterial "m1a1_abrams_chassis"
+     AssignedMaterial "{69CC25F19FDA2470}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_Black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image ""
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EA4BE6EF6C202902}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_TuskII_Turret_Black.et"
+    }
+    RegisteringComponentSlotInfo TuskSupports {
+     Prefab "{A3BB08F915355686}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskIISupports_Black.et"
+    }
+    RegisteringComponentSlotInfo EngineCover {
+     Prefab "{4369E7FEBB6BCB83}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Engine_Grill_Black.et"
+    }
+   }
+  }
+ }
+}

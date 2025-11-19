@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7DFD03FD8003F2A8}Assets/Vehicles/Tracked/M1A1/data/CamoNetting.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

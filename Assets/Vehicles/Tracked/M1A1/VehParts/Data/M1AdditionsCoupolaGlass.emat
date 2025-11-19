@@ -1,0 +1,26 @@
+MatPBRBasicGlass {
+ Color 1 0.195 0.195 1
+ SpecularIBL 0.169 0.094 0.309 1
+ Cull none
+ RoughnessScale 0.05
+ MetalnessScale 0.2
+ OpacityMap "{46CF67CB400DECC9}Assets/_SharedData/Glass/ST_Glass_Streaks_01_A.edds"
+ GlobalMapsUVTransform MatUVTransform "{654B48666A03731C}" {
+  TilingU 15
+  TilingV 15
+ }
+ DetailNormalPower 0.1
+ DetailNormalMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ DetailNormalMapUVTransform MatUVTransform "{654B487B4AA3F1F7}" {
+  TilingU 5
+  TilingV 5
+ }
+ FrontFaceInterior 1
+ FresnelPower 0.5
+ FresnelBias 0.44
+ RefractionIntensity 0.01
+ ChromaticIntensity 0.6
+ ApplyWorldNormal 1
+ RefractionColor 0.261 0.401 0.791 1
+ AlbedoRefractionTint 1
+}

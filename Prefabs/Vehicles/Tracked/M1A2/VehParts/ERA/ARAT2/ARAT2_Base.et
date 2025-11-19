@@ -1,0 +1,11 @@
+GenericEntity : "{8FF08C14179246D6}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT/ARAT_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{145C41D561BC56D4}Assets/Vehicles/Tracked/M1A1/ERA/Plates/m1a1_abrams_era_plate.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 2000
+  }
+ }
+}

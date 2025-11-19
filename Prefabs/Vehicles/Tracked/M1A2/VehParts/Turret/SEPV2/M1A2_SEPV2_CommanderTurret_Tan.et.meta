@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ADD275F8CBE28776}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/M1A2_SEPV2_CommanderTurret_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

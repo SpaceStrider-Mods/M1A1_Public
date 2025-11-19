@@ -1,0 +1,18 @@
+Turret : "{79991EBD111EC9CA}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Loader : "{BF269FD613320BD2}Prefabs/Vehicles/Tracked/M1A1/Configs/CargoCompartment_M1A1_Loader.conf" {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_Loader_idle"
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{659B6436462BA63F}" {
+      m_sDefaultOccupantPrefab "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+     }
+    }
+   }
+  }
+ }
+ coords 113.339 1 1284.315
+}

@@ -1,0 +1,42 @@
+Turret : "{79991EBD111EC9CA}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Prefab "{06216CD6E41C3E95}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Commander_Turret_TUSK_M2HB.et"
+     RegisterWeapons 1
+    }
+    RegisteringComponentSlotInfo LoaderTurret {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Commander_sight {
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Warlock {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo LoaderArmor {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo GunSupports {
+     PivotID "v_gun_01"
+     Offset -0.0862 -0.4026 -1.6157
+     MergePhysics 1
+     Enabled 1
+     Prefab "{14C08944C95E37E1}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Turret_M2Supports.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Loader_GunShield {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SEP_CommandersCupula {
+    }
+   }
+  }
+  WeaponSlotComponent "{65480D62F0F7061F}" {
+   Enabled 1
+  }
+ }
+ coords 83.996 1 1240.542
+}

@@ -1,0 +1,21 @@
+Tank : "{B47B16E8DB493898}Prefabs/Vehicles/Tracked/M1A1/M1A1.et" {
+ ID "5D1880CD9E51D361"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Abrams-EditableEntity_M1A1_Name Net"
+    m_Image "{CD5BF51CD8CDDFF9}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A1/M1A1Net.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5C7634FA342E3528}Prefabs/Vehicles/Tracked/M1A1/VehParts/Turret/M1A1_Turret_Net.et"
+    }
+    EntitySlotInfo Camo {
+     Prefab "{A631817E7D80A811}Prefabs/Vehicles/Tracked/M1A1/VehParts/M1A1_Camonet_Hull_01.et"
+    }
+   }
+  }
+ }
+}

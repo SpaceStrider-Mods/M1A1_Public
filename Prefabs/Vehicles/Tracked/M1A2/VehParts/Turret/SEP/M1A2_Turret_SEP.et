@@ -1,0 +1,16 @@
+Turret : "{79991EBD111EC9CA}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/M1A2_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E182107FF135160}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SEP_CommandersCupula {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 102.275 1 1381.377
+}

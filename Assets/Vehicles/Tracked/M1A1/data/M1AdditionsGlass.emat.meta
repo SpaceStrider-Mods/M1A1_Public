@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5BC6B73533E5536E}Assets/Vehicles/Tracked/M1A1/data/M1AdditionsGlass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

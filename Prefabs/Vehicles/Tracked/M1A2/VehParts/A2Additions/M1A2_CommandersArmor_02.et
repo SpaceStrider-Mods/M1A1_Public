@@ -1,0 +1,25 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{E5D8E3D32B62D083}Assets/Vehicles/Tracked/M1A1/M1A2_CommandersCupulaArmor_Static.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Basket {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{654B7BE1127EC10B}" {
+      }
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+ }
+ coords 2.154 4.879 5.113
+}

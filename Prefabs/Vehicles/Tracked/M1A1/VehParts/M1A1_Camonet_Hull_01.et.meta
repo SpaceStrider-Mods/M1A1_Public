@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A631817E7D80A811}Prefabs/Vehicles/Tracked/M1A1/VehParts/M1A1_Camonet_Hull_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

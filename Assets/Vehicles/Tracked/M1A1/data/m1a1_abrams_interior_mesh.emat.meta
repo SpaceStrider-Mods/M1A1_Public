@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{50CE92C6B4F69041}Assets/Vehicles/Tracked/M1A1/data/m1a1_abrams_interior_mesh.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

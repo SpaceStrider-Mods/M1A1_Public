@@ -1,0 +1,12 @@
+MatPBRMulti {
+ GlobalMCRMap "{FAAB0C5E14A0B8CA}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_interior_01_BCR.edds"
+ GlobalNMOMap "{C273B7CCCDD7EA54}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_interior_01_NMO.edds"
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{64D8246C24B75858}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_1 1.949
+ Metalness_1 0
+}

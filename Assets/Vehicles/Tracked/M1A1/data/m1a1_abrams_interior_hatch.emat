@@ -1,0 +1,14 @@
+MatPBRMulti {
+ RoughnessScale 1.754
+ MetalnessScale 0.902
+ AOScale 0.05
+ GlobalNMOMap "{7559E2FC5ECE82F7}Assets/Vehicles/Tracked/M1A1/data/Textures/m1a1_abrams_interior_hatch_NMO.edds"
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{64D8246C8235E2FB}" {
+  TilingU 5
+  TilingV 5
+ }
+ Roughness_1 1.949
+ Metalness_1 0
+}
